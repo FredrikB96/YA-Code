@@ -1,0 +1,70 @@
+/*
+ * Encrypt.c
+ *
+ *  Created on: 5 okt. 2020
+ *      Author: blomg
+ */
+
+#include "header.h"
+
+void Encrypt(char Input_Corrected[CHAR_MAX]){
+
+	char Encrypted[CHAR_MAX];
+	char Temp_Space[CHAR_MAX];
+	int size = strlen(Input_Corrected);
+	int Spaces = 0;
+	int Position = 0;
+	int Number_Of_Letters = 0;
+
+	for(int i=0;i<size;i++)
+	{
+		if(islower(Input_Corrected[i]))
+		{
+			if(Input_Corrected[i]=='z')
+			{
+				Encrypted[Position] = 'A';
+				Position++;
+				Number_Of_Letters++;
+			}
+			else
+			{
+				Encrypted[Position] = toupper(Input_Corrected[i]+1);
+				Number_Of_Letters++;
+				Position++;
+			}
+		}
+		if(isdigit(Input_Corrected[i]))
+		{
+			int temp = Input_Corrected[i] -'0';
+			temp += Number_Of_Letters;
+			temp %= REMAINDER;
+			Encrypted[Position] = temp + '0';
+
+			Position++;
+		}
+		if(Input_Corrected[i]==' ')
+		{
+			Temp_Space[Spaces] = 'a' + i;
+			Spaces++;
+		}
+	}
+	Temp_Space[Spaces] = '\n';
+	Spaces = 0;
+	int Space_Size = strlen(Temp_Space);
+	for(int i=Position;Temp_Space[Spaces] !='\n';i++)
+	{
+
+		Encrypted[i]= Temp_Space[Spaces];
+		Spaces++;
+	}
+
+	size = strlen(Encrypted);
+	int k = 0; // New Iteration
+
+	for(int i=size;i>=0;i--)
+	{
+		Encrypted[k] = Encrypted[i];
+		printf("%c", Encrypted[k]);
+	}
+
+}

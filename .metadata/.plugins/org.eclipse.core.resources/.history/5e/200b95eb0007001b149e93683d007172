@@ -1,0 +1,113 @@
+/*
+ ============================================================================
+ Name        : Cipher_Excersie.c
+ Author      : Fredrik Blomgren
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include "header.h"
+
+int main(void) {
+	char User_Input[MAX_INPUT];
+	char Input_Corrected[CHAR_MAX];
+
+	setbuf(stdout,NULL);
+	printf(" Enter 1 or 2 depending on your choice in the menu: \n 1. Encrypt \n 2. Decrypt \n ");
+	char choice = getchar();
+	char disregard = getchar();
+	int Position = 0;
+	if(choice == '1')
+	{
+		printf(" Enter the text to be encrypted: ");
+		fgets(User_Input,CHAR_MAX,stdin);
+
+		for(int i=0;User_Input[i] !='\n';i++)
+		{
+			if(islower(User_Input[i]))
+			{
+				Input_Corrected[Position] = User_Input[i];
+				Position++;
+			}
+			if(isdigit(User_Input[i]))
+			{
+				Input_Corrected[Position] = User_Input[i];
+				Position++;
+			}
+			if(User_Input[i]==' ')
+			{
+				Input_Corrected[Position] = User_Input[i];
+				Position++;
+			}
+		}
+
+
+		//		Encrypt(Input_Corrected);
+	}
+	if(choice == '2')
+	{
+
+	}
+
+
+
+	// Encrypt
+	char Encrypted[CHAR_MAX];
+	char Temp_array[CHAR_MAX];
+	char Temp_Space[CHAR_MAX];
+	int size = strlen(Input_Corrected);
+	int Spaces = 0;
+	 Position = 0;
+	int Number_Of_Letters = 0;
+
+	for(int i=0;i<size;i++)
+	{
+		if(Input_Corrected[i]>='a'&& Input_Corrected[i]<='y')
+		{
+			Temp_array[i] = toupper(Input_Corrected[i]+1);
+				Number_Of_Letters++;
+				Position++;
+		}
+		if(Input_Corrected[i]=='z')
+		{
+			Temp_array[i] = 'A';
+		}
+		if(isdigit(Input_Corrected[i]))
+		{
+			int temp = Input_Corrected[i] -'0';
+			temp += Number_Of_Letters;
+			temp %= REMAINDER;
+			Temp_array[i] = temp + '0';
+
+			Position++;
+		}
+		if(Input_Corrected[i]==' ')
+		{
+			Temp_Space[Spaces] = 'a' + i;
+			Spaces++;
+		}
+	}
+	Temp_Space[Spaces] = '\n';
+	Spaces = 0;
+	for(int i=Position;Temp_Space[Spaces] !='\n';i++)
+	{
+
+		Temp_array[i]= Temp_Space[Spaces];
+		Spaces++;
+	}
+
+	size = strlen(Encrypted);
+	size--;
+	int k = 0;
+
+	for(int i=size;i>=0;i--)
+	{
+		Encrypted[k] = Temp_array[i];
+		printf("%c", Encrypted[k]);
+		k++;
+	}
+
+	return EXIT_SUCCESS;
+}

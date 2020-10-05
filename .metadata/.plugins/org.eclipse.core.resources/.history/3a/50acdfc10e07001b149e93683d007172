@@ -1,0 +1,25 @@
+/*
+ * header.h
+ *
+ *  Created on: 5 okt. 2020
+ *      Author: blomg
+ */
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <ctype.h>
+#include <string.h>
+
+#define MAX_INPUT 100
+#define CHAR_MAX 25
+#define REMAINDER 10
+#define UPPER_CASE 32;
+
+
+void Encrypt(char Input_Corrected[CHAR_MAX]);
+
+#endif /* HEADER_H_ */
