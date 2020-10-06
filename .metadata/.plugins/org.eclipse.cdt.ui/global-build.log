@@ -126,3 +126,920 @@ gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
 gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:00:44 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:25: error: subscripted value is neither array nor pointer nor vector
+   29 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                         ^
+..\src\Data_Struct_Excersice.c:29:40: error: subscripted value is neither array nor pointer nor vector
+   29 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                                        ^
+..\src\Data_Struct_Excersice.c:29:56: error: subscripted value is neither array nor pointer nor vector
+   29 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                                                        ^
+..\src\Data_Struct_Excersice.c:32:25: error: subscripted value is neither array nor pointer nor vector
+   32 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                         ^
+..\src\Data_Struct_Excersice.c:32:40: error: subscripted value is neither array nor pointer nor vector
+   32 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                        ^
+..\src\Data_Struct_Excersice.c:32:56: error: subscripted value is neither array nor pointer nor vector
+   32 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                                        ^
+..\src\Data_Struct_Excersice.c:36:17: warning: implicit declaration of function 'datediff' [-Wimplicit-function-declaration]
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c:36:31: error: subscripted value is neither array nor pointer nor vector
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                               ^
+..\src\Data_Struct_Excersice.c:36:40: error: subscripted value is neither array nor pointer nor vector
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                                        ^
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Daysdiff' [-Wunused-variable]
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |      ^~~~~~~~
+..\src\Data_Struct_Excersice.c: At top level:
+..\src\Data_Struct_Excersice.c:43:7: error: conflicting types for 'datediff'
+   43 | Dates datediff (Dates d1, Dates d2){
+      |       ^~~~~~~~
+..\src\Data_Struct_Excersice.c:36:17: note: previous implicit declaration of 'datediff' was here
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+13:00:57 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:34:25: error: '(Dates *)&Input' is a pointer; did you mean to use '->'?
+   34 |  printf("%d-%d-%d",Input.year,Input.month,Input.day);
+      |                         ^
+      |                         ->
+..\src\Data_Struct_Excersice.c:34:36: error: '(Dates *)&Input' is a pointer; did you mean to use '->'?
+   34 |  printf("%d-%d-%d",Input.year,Input.month,Input.day);
+      |                                    ^
+      |                                    ->
+..\src\Data_Struct_Excersice.c:34:48: error: '(Dates *)&Input' is a pointer; did you mean to use '->'?
+   34 |  printf("%d-%d-%d",Input.year,Input.month,Input.day);
+      |                                                ^
+      |                                                ->
+..\src\Data_Struct_Excersice.c:36:17: warning: implicit declaration of function 'datediff' [-Wimplicit-function-declaration]
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Daysdiff' [-Wunused-variable]
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |      ^~~~~~~~
+..\src\Data_Struct_Excersice.c: At top level:
+..\src\Data_Struct_Excersice.c:43:7: error: conflicting types for 'datediff'
+   43 | Dates datediff (Dates d1, Dates d2){
+      |       ^~~~~~~~
+..\src\Data_Struct_Excersice.c:36:17: note: previous implicit declaration of 'datediff' was here
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+13:01:09 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:35:17: warning: implicit declaration of function 'datediff' [-Wimplicit-function-declaration]
+   35 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c:35:6: warning: unused variable 'Daysdiff' [-Wunused-variable]
+   35 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |      ^~~~~~~~
+..\src\Data_Struct_Excersice.c: At top level:
+..\src\Data_Struct_Excersice.c:42:7: error: conflicting types for 'datediff'
+   42 | Dates datediff (Dates d1, Dates d2){
+      |       ^~~~~~~~
+..\src\Data_Struct_Excersice.c:35:17: note: previous implicit declaration of 'datediff' was here
+   35 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+13:01:54 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:36:17: error: incompatible types when initializing type 'int' using type 'Dates' {aka 'struct <anonymous>'}
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |                 ^~~~~~~~
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Daysdiff' [-Wunused-variable]
+   36 |  int Daysdiff = datediff(Input[0],Input[1]);
+      |      ^~~~~~~~
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+13:03:08 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:36:8: warning: unused variable 'diff' [-Wunused-variable]
+   36 |  Dates diff = datediff(Input[0],Input[1]);
+      |        ^~~~
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:17:05 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:36:8: warning: unused variable 'diff' [-Wunused-variable]
+   36 |  Dates diff = datediff(Input[0],Input[1]);
+      |        ^~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:18:31 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+13:26:26 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:6: warning: unused variable 'Max_Month' [-Wunused-variable]
+   29 |  int Max_Month = 12;
+      |      ^~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+13:27:55 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:6: warning: unused variable 'Max_Month' [-Wunused-variable]
+   29 |  int Max_Month = 12;
+      |      ^~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+13:28:59 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:6: warning: unused variable 'Max_Month' [-Wunused-variable]
+   29 |  int Max_Month = 12;
+      |      ^~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:31:14 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:6: warning: unused variable 'Max_Month' [-Wunused-variable]
+   29 |  int Max_Month = 13;
+      |      ^~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+13:33:30 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+13:39:16 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:40:14 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+13:43:56 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:69:21: error: expected '}' before ']' token
+   69 |  Dates diff = {0,0,0];
+      |               ~     ^
+..\src\Data_Struct_Excersice.c:69:21: error: expected ',' or ';' before ']' token
+13:44:07 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'datediff':
+..\src\Data_Struct_Excersice.c:69:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   69 |  Dates diff{0,0,0];
+      |            ^
+..\src\Data_Struct_Excersice.c:69:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   69 |  Dates diff{0,0,0];
+      |              ^
+..\src\Data_Struct_Excersice.c:69:16: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   69 |  Dates diff{0,0,0];
+      |                ^
+..\src\Data_Struct_Excersice.c:69:16: warning: statement with no effect [-Wunused-value]
+..\src\Data_Struct_Excersice.c:69:18: error: expected ';' before ']' token
+   69 |  Dates diff{0,0,0];
+      |                  ^
+      |                  ;
+..\src\Data_Struct_Excersice.c:69:18: error: expected statement before ']' token
+..\src\Data_Struct_Excersice.c:75:3: error: 'diff' undeclared (first use in this function)
+   75 |   diff.year = d1.year - d2.year;
+      |   ^~~~
+..\src\Data_Struct_Excersice.c:75:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Data_Struct_Excersice.c:98:1: error: expected declaration or statement at end of input
+   98 | }
+      | ^
+..\src\Data_Struct_Excersice.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+13:47:08 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+13:47:35 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+14:15:53 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:37:19: error: cannot take address of bit-field 'year'
+   37 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                   ^
+..\src\Data_Struct_Excersice.c:37:34: error: cannot take address of bit-field 'month'
+   37 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                                  ^
+..\src\Data_Struct_Excersice.c:37:50: error: cannot take address of bit-field 'day'
+   37 |  scanf("%d-%d-%d",&Input[0].year,&Input[0].month,&Input[0].day);
+      |                                                  ^
+..\src\Data_Struct_Excersice.c:40:19: error: cannot take address of bit-field 'year'
+   40 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                   ^
+..\src\Data_Struct_Excersice.c:40:34: error: cannot take address of bit-field 'month'
+   40 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                  ^
+..\src\Data_Struct_Excersice.c:40:50: error: cannot take address of bit-field 'day'
+   40 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                                  ^
+14:18:43 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:36:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |         ~^        ~~~~~~~~~~~~~
+      |          |                |
+      |          int *            int
+..\src\Data_Struct_Excersice.c:36:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |            ~^                   ~~~~~~~~~~~~~~
+      |             |                           |
+      |             int *                       int
+..\src\Data_Struct_Excersice.c:36:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |               ~^                               ~~~~~~~~~~~~
+      |                |                                       |
+      |                int *                                   int
+..\src\Data_Struct_Excersice.c:39:19: error: cannot take address of bit-field 'year'
+   39 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                   ^
+..\src\Data_Struct_Excersice.c:39:34: error: cannot take address of bit-field 'month'
+   39 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                  ^
+..\src\Data_Struct_Excersice.c:39:50: error: cannot take address of bit-field 'day'
+   39 |  scanf("%d-%d-%d",&Input[1].year,&Input[1].month,&Input[1].day);
+      |                                                  ^
+14:18:53 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:36:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |         ~^        ~~~~~~~~~~~~~
+      |          |                |
+      |          int *            int
+..\src\Data_Struct_Excersice.c:36:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |            ~^                   ~~~~~~~~~~~~~~
+      |             |                           |
+      |             int *                       int
+..\src\Data_Struct_Excersice.c:36:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   36 |  scanf("%d-%d-%d",Input[0].year,Input[0].month,Input[0].day);
+      |               ~^                               ~~~~~~~~~~~~
+      |                |                                       |
+      |                int *                                   int
+..\src\Data_Struct_Excersice.c:39:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   39 |  scanf("%d-%d-%d",Input[1].year,Input[1].month,Input[1].day);
+      |         ~^        ~~~~~~~~~~~~~
+      |          |                |
+      |          int *            int
+..\src\Data_Struct_Excersice.c:39:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   39 |  scanf("%d-%d-%d",Input[1].year,Input[1].month,Input[1].day);
+      |            ~^                   ~~~~~~~~~~~~~~
+      |             |                           |
+      |             int *                       int
+..\src\Data_Struct_Excersice.c:39:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   39 |  scanf("%d-%d-%d",Input[1].year,Input[1].month,Input[1].day);
+      |               ~^                               ~~~~~~~~~~~~
+      |                |                                       |
+      |                int *                                   int
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+14:36:38 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:34:29: error: stray '\250' in program
+   34 |  char User_Input[MAX_INPUT];¨
+      |                             ^
+..\src\Data_Struct_Excersice.c:44:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   44 |    if(isdigit(User_Input[i]))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:50:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   50 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:50:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+14:36:52 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:44:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   44 |    if(isdigit(User_Input[i]))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:50:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   50 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:50:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+14:37:52 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:45:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   45 |    if(isdigit(User_Input[i]))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:51:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   51 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:51:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+14:39:18 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:45:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   45 |    if(isdigit(temp))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:51:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   51 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:51:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Data_Struct_Excersice.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:39:30 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+14:41:41 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:46:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   46 |    if(isdigit(temp))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:52:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   52 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:52:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+14:43:28 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:46:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   46 |    if(isdigit(temp))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:53:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   53 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:53:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+14:54:49 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:46:7: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   46 |    if(isdigit(temp))
+      |       ^~~~~~~
+..\src\Data_Struct_Excersice.c:53:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   53 |   int User_Length = strlen(User_Input);
+      |                     ^~~~~~
+..\src\Data_Struct_Excersice.c:53:21: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Data_Struct_Excersice.c:14:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   13 | #include <stdbool.h>
+  +++ |+#include <string.h>
+   14 | 
+..\src\Data_Struct_Excersice.c:53:28: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   53 |   int User_Length = strlen(User_Input);
+      |                            ^~~~~~~~~~
+      |                            |
+      |                            unsigned char *
+..\src\Data_Struct_Excersice.c:53:28: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Data_Struct_Excersice.c:56:25: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   56 |    Input[0].year = atoi(User_Input);
+      |                         ^~~~~~~~~~
+      |                         |
+      |                         unsigned char *
+In file included from ..\src\Data_Struct_Excersice.c:12:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:36:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   36 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+15:12:22 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:20:6: warning: unused variable 'Day_Month_Length' [-Wunused-variable]
+   20 |  int Day_Month_Length = 2;
+      |      ^~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:19:6: warning: unused variable 'Year_Length' [-Wunused-variable]
+   19 |  int Year_Length = 4;
+      |      ^~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:18:16: warning: unused variable 'User_Input' [-Wunused-variable]
+   18 |  unsigned char User_Input[MAX_INPUT];
+      |                ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:15:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   15 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:17:4: error: 'User_Input' undeclared (first use in this function)
+   17 |    User_Input[i] = temp;
+      |    ^~~~~~~~~~
+..\src\Input.c:17:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Input.c:22:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   22 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:22:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:23:18: error: 'Year_Length' undeclared (first use in this function); did you mean 'User_Length'?
+   23 |  if(User_Length<=Year_Length)
+      |                  ^~~~~~~~~~~
+      |                  User_Length
+..\src\Input.c:25:8: error: subscripted value is neither array nor pointer nor vector
+   25 |   Input[0].year = atoi(User_Input);
+      |        ^
+..\src\Input.c:37:6: error: redefinition of 'User_Length'
+   37 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:22:6: note: previous definition of 'User_Length' was here
+   22 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:38:18: error: 'Day_Month_Length' undeclared (first use in this function)
+   38 |  if(User_Length<=Day_Month_Length)
+      |                  ^~~~~~~~~~~~~~~~
+..\src\Input.c:40:8: error: subscripted value is neither array nor pointer nor vector
+   40 |   Input[0].month = atoi(User_Input);
+      |        ^
+..\src\Input.c:52:6: error: redefinition of 'User_Length'
+   52 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:37:6: note: previous definition of 'User_Length' was here
+   37 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:55:8: error: subscripted value is neither array nor pointer nor vector
+   55 |   Input[0].day = atoi(User_Input);
+      |        ^
+..\src\Input.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+   57 | }
+      | ^
+15:13:03 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:19:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   19 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:21:4: error: 'User_Input' undeclared (first use in this function)
+   21 |    User_Input[i] = temp;
+      |    ^~~~~~~~~~
+..\src\Input.c:21:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Input.c:26:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   26 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:26:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:29:8: error: subscripted value is neither array nor pointer nor vector
+   29 |   Input[0].year = atoi(User_Input);
+      |        ^
+..\src\Input.c:41:6: error: redefinition of 'User_Length'
+   41 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:26:6: note: previous definition of 'User_Length' was here
+   26 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:44:8: error: subscripted value is neither array nor pointer nor vector
+   44 |   Input[0].month = atoi(User_Input);
+      |        ^
+..\src\Input.c:56:6: error: redefinition of 'User_Length'
+   56 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:41:6: note: previous definition of 'User_Length' was here
+   41 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:59:8: error: subscripted value is neither array nor pointer nor vector
+   59 |   Input[0].day = atoi(User_Input);
+      |        ^
+..\src\Input.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+   61 | }
+      | ^
+15:13:46 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:21:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   21 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:28:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   28 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:28:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:28:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   28 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:28:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:31:8: error: subscripted value is neither array nor pointer nor vector
+   31 |   Input[0].year = atoi(User_Input);
+      |        ^
+..\src\Input.c:31:24: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   31 |   Input[0].year = atoi(User_Input);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:43:6: error: redefinition of 'User_Length'
+   43 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:28:6: note: previous definition of 'User_Length' was here
+   28 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:43:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   43 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:43:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:46:8: error: subscripted value is neither array nor pointer nor vector
+   46 |   Input[0].month = atoi(User_Input);
+      |        ^
+..\src\Input.c:46:25: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   46 |   Input[0].month = atoi(User_Input);
+      |                         ^~~~~~~~~~
+      |                         |
+      |                         unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:58:6: error: redefinition of 'User_Length'
+   58 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:43:6: note: previous definition of 'User_Length' was here
+   43 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:58:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   58 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:58:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:61:8: error: subscripted value is neither array nor pointer nor vector
+   61 |   Input[0].day = atoi(User_Input);
+      |        ^
+..\src\Input.c:61:23: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   61 |   Input[0].day = atoi(User_Input);
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+   63 | }
+      | ^
+15:14:13 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:27:12: error: subscripted value is neither array nor pointer nor vector
+   27 |    if(Input[i].year>MAX_YEAR)
+      |            ^
+..\src\Data_Struct_Excersice.c:28:13: error: subscripted value is neither array nor pointer nor vector
+   28 |     if(Input[i].month>MAX_MONTH)
+      |             ^
+..\src\Data_Struct_Excersice.c:32:12: error: subscripted value is neither array nor pointer nor vector
+   32 |    if(Input[i].day>MAX_DAYS)
+      |            ^
+..\src\Data_Struct_Excersice.c:48:29: error: subscripted value is neither array nor pointer nor vector
+   48 |  Dates diff = datediff(Input[0],Input[1]);
+      |                             ^
+..\src\Data_Struct_Excersice.c:48:38: error: subscripted value is neither array nor pointer nor vector
+   48 |  Dates diff = datediff(Input[0],Input[1]);
+      |                                      ^
+15:24:14 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:53:61: error: 'diff' undeclared (first use in this function)
+   53 |  printf("the difference is: %d days, %d Months, %d Years\n",diff.day,diff.month,diff.year);
+      |                                                             ^~~~
+..\src\Data_Struct_Excersice.c:53:61: note: each undeclared identifier is reported only once for each function it appears in
+15:24:42 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:22:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   22 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:29:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   29 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:29:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:29:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   29 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:29:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:32:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   32 |   Input.year = atoi(User_Input);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:46:6: error: redefinition of 'User_Length'
+   46 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:29:6: note: previous definition of 'User_Length' was here
+   29 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:46:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   46 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:46:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:49:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   49 |   Input.month = atoi(User_Input);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:63:6: error: redefinition of 'User_Length'
+   63 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:46:6: note: previous definition of 'User_Length' was here
+   46 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:63:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   63 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:63:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:66:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   66 |   Input.day = atoi(User_Input);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+15:24:56 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:22:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   22 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:29:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   29 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:29:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:29:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   29 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:29:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:32:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   32 |   Input.year = atoi(User_Input);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:46:24: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   46 |   User_Length = strlen(User_Input);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+..\src\Input.c:46:24: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:49:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   49 |   Input.month = atoi(User_Input);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:63:6: error: redefinition of 'User_Length'
+   63 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:29:6: note: previous definition of 'User_Length' was here
+   29 |  int User_Length = strlen(User_Input);
+      |      ^~~~~~~~~~~
+..\src\Input.c:63:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   63 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:63:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:66:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   66 |   Input.day = atoi(User_Input);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+15:25:08 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:22:6: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   22 |   if(isdigit(temp))
+      |      ^~~~~~~
+..\src\Input.c:29:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   29 |  int User_Length = strlen(User_Input);
+      |                    ^~~~~~
+..\src\Input.c:29:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Input.c:8:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    7 | #include "header.h"
+  +++ |+#include <string.h>
+    8 | 
+..\src\Input.c:29:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   29 |  int User_Length = strlen(User_Input);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+..\src\Input.c:29:27: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:32:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   32 |   Input.year = atoi(User_Input);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:46:24: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   46 |   User_Length = strlen(User_Input);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+..\src\Input.c:46:24: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:49:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   49 |   Input.month = atoi(User_Input);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:63:23: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   63 |  User_Length = strlen(User_Input);
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       unsigned char *
+..\src\Input.c:63:23: note: expected 'const char *' but argument is of type 'unsigned char *'
+..\src\Input.c:66:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   66 |   Input.day = atoi(User_Input);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" "src\\Datesdiff.o" "src\\Input.o" 
+Info: Nothing to build for Data_Struct_Excersice

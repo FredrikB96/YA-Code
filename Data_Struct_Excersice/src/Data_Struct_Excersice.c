@@ -8,27 +8,52 @@
  ============================================================================
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct {
-	int year;
-	int month;
-	int day;
-}Dates;
-
-
+#include "header.h"
 
 int main(void) {
+
 	setbuf(stdout,NULL);
-	Dates Input;
+	_Bool Valid_Input = true;
+	Dates Filtered_Input[2];
+
+	do{
+		Valid_Input = true;
+		printf(" Enter the first values: (Year-Month-Day)\n");
+		Filtered_Input[0] = Input();
+
+		printf(" Enter the second row of values: (Year-Month-Day\n");
+		Filtered_Input[1] = Input();
+
+		for(int i=0;i<2;i++)
+		{
+			if(Filtered_Input[i].year>MAX_YEAR)
+			{
+				Valid_Input = false;
+			}
+			if(Filtered_Input[i].month>MAX_MONTH)
+			{
+				Valid_Input = false;
+			}
+			if(Filtered_Input[i].day>MAX_DAYS)
+			{
+				Valid_Input = false;
+			}
+		}
+
+		if(!Valid_Input)
+		{
+			printf(" Month can't be above 12, and days can't be above 30\n");
+		}
+
+	}while(!Valid_Input);
 
 
-	printf(" Enter the year,month and day in the format of xxxx-xx-xx\n");
-	scanf("%d-%d-%d",&Input.year,&Input.month,&Input.day);
+//	Dates diff = datediff(Input[0],Input[1]);
 
+		return EXIT_SUCCESS;
 
-	printf("%d-%d-%d",Input.year,Input.month,Input.day);
-
-	return EXIT_SUCCESS;
 }
+
+
+
+
