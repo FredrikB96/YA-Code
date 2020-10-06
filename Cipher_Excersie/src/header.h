@@ -16,7 +16,7 @@
 
 #define MAX_INPUT 100
 #define CHAR_MAX 25
-#define REMAINDER 10
+#define TEN 10
 #define UPPER_CASE 31;
 
 

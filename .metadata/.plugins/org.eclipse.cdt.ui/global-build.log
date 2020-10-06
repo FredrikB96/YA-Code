@@ -1,1078 +1,128 @@
-11:06:07 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
+11:18:12 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:31:7: warning: implicit declaration of function 'isalnum' [-Wimplicit-function-declaration]
-   31 |    if(isalnum(User_Input))
-      |       ^~~~~~~
-..\src\Cipher_Excersie.c:31:15: warning: passing argument 1 of 'isalnum' makes integer from pointer without a cast [-Wint-conversion]
-   31 |    if(isalnum(User_Input))
-      |               ^~~~~~~~~~
-      |               |
-      |               char *
-..\src\Cipher_Excersie.c:31:15: note: expected 'int' but argument is of type 'char *'
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:08:24 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+11:31:19 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:14:57 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:15:14 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-11:16:09 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:16:52 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:17:56 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'dump' [-Wunused-variable]
-   22 |  char dump = getchar();
-      |       ^~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-11:18:50 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:19:44 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:21:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:28:23 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'disregard' [-Wunused-variable]
-   22 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:31:15 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:61:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-   61 |  int size = strlen(Input_Corrected);
-      |             ^~~~~~
-..\src\Cipher_Excersie.c:61:13: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Cipher_Excersie.c:12:1: note: include '<string.h>' or provide a declaration of 'strlen'
-   11 | #include "header.h"
-  +++ |+#include <string.h>
-   12 | 
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'disregard' [-Wunused-variable]
-   22 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:35:08 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'disregard' [-Wunused-variable]
-   22 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:36:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'disregard' [-Wunused-variable]
-   22 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:41:32 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:63:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   63 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:22:7: warning: unused variable 'disregard' [-Wunused-variable]
-   22 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:16:6: warning: variable 'Array_Length' set but not used [-Wunused-but-set-variable]
-   16 |  int Array_Length = 0;
-      |      ^~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:42:11 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:62:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   62 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:43:12 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:62:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   62 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:44:16 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:62:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   62 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:45:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:62:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   62 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:45:54 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:62:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   62 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:46:34 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:59:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   59 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-11:49:27 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:57:18: error: 'Postition' undeclared (first use in this function); did you mean 'Position'?
-   57 |  Input_Corrected[Postition] = '\0';
-      |                  ^~~~~~~~~
-      |                  Position
-..\src\Cipher_Excersie.c:57:18: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-11:49:45 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:51:14 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-11:52:46 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:69:15: error: assignment to expression with array type
-   69 |     Encrypted = 'A';
-      |               ^
-..\src\Cipher_Excersie.c:81:8: warning: unused variable 'temp' [-Wunused-variable]
-   81 |    int temp =
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:28:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |         ~^        ~~~~~~~~~~
+      |          |             |
+      |          int *         int
+..\src\Data_Struct_Excersice.c:28:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |            ~^                ~~~~~~~~~~~
+      |             |                     |
+      |             int *                 int
+..\src\Data_Struct_Excersice.c:28:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |               ~^                         ~~~~~~~~~
+      |                |                              |
+      |                int *                          int
+..\src\Data_Struct_Excersice.c:24:8: warning: unused variable 'test' [-Wunused-variable]
+   24 |  Dates test = {1999,10,25};
       |        ^~~~
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-11:52:56 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:81:8: warning: unused variable 'temp' [-Wunused-variable]
-   81 |    int temp =
-      |        ^~~~
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:56:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:56:54 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-11:59:52 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-12:01:24 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:60:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   60 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:09:21 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:87:14: error: expected ';' before ':' token
-   87 |    Position++:
-      |              ^
-      |              ;
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-12:09:30 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-12:12:18 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-12:16:04 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:110:3: error: 'Encrypt' undeclared (first use in this function); did you mean 'Encrypted'?
-  110 |   Encrypt[k] = Encrypt[i];
-      |   ^~~~~~~
-      |   Encrypted
-..\src\Cipher_Excersie.c:110:3: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Cipher_Excersie.c:106:6: warning: variable 'k' set but not used [-Wunused-but-set-variable]
-  106 |  int k = 0; // New Iteration
-      |      ^
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-12:16:13 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-12:16:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-12:18:26 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-12:22:13 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:95:2: error: 'Temp_Spaces' undeclared (first use in this function); did you mean 'Temp_Space'?
-   95 |  Temp_Spaces[Spaces] = '\n';
-      |  ^~~~~~~~~~~
-      |  Temp_Space
-..\src\Cipher_Excersie.c:95:2: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Cipher_Excersie.c:98:32: warning: comparison between pointer and integer
-   98 |  for(int i=Position;Temp_Space !='\n';i++)
-      |                                ^~
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-12:22:29 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:98:32: warning: comparison between pointer and integer
-   98 |  for(int i=Position;Temp_Space !='\n';i++)
-      |                                ^~
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:24:21 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-12:24:52 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:27:57 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-12:28:17 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:28:38 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:97:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   97 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:21:7: warning: unused variable 'disregard' [-Wunused-variable]
-   21 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:36:39 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-12:37:03 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:28:50 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-13:31:19 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-13:33:44 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:25:38: warning: statement with no effect [-Wunused-value]
-   25 |     Encrypted[Position] += UPPER_CASE+1;
-      |                                      ^
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:34:07 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:25:57: warning: statement with no effect [-Wunused-value]
-   25 |     Encrypted[Position] = Encrypted[Position]+UPPER_CASE+1;
-      |                                                         ^
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:34:47 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:35:04 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:36:45 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:61:6: error: redefinition of 'Position'
-   61 |  int Position = 0;
-      |      ^~~~~~~~
-..\src\Cipher_Excersie.c:21:6: note: previous definition of 'Position' was here
-   21 |  int Position = 0;
-      |      ^~~~~~~~
-..\src\Cipher_Excersie.c:98:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   98 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-13:37:16 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-..\src\Encrypt.c: In function 'Encrypt':
-..\src\Encrypt.c:53:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   53 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:98:6: warning: unused variable 'Space_Size' [-Wunused-variable]
-   98 |  int Space_Size = strlen(Temp_Space);
-      |      ^~~~~~~~~~
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-13:40:33 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:42:42 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:73:30: error: 'i' undeclared (first use in this function)
-   73 |   if(isdigit(Input_Corrected[i]))
-      |                              ^
-..\src\Cipher_Excersie.c:73:30: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Cipher_Excersie.c:58:7: warning: variable 'Temp_Space' set but not used [-Wunused-but-set-variable]
-   58 |  char Temp_Space[CHAR_MAX];
-      |       ^~~~~~~~~~
-..\src\Cipher_Excersie.c:57:7: warning: variable 'Encrypted' set but not used [-Wunused-but-set-variable]
-   57 |  char Encrypted[CHAR_MAX];
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c: At top level:
-..\src\Cipher_Excersie.c:88:13: error: 'Spaces' undeclared here (not in a function)
-   88 |  Temp_Space[Spaces] = '\n';
-      |             ^~~~~~
-..\src\Cipher_Excersie.c:88:2: warning: data definition has no type or storage class
-   88 |  Temp_Space[Spaces] = '\n';
-      |  ^~~~~~~~~~
-..\src\Cipher_Excersie.c:88:2: warning: type defaults to 'int' in declaration of 'Temp_Space' [-Wimplicit-int]
-..\src\Cipher_Excersie.c:89:2: warning: data definition has no type or storage class
-   89 |  Spaces = 0;
-      |  ^~~~~~
-..\src\Cipher_Excersie.c:89:2: warning: type defaults to 'int' in declaration of 'Spaces' [-Wimplicit-int]
-..\src\Cipher_Excersie.c:90:2: error: expected identifier or '(' before 'for'
-   90 |  for(int i=Position;Temp_Space[Spaces] !='\n';i++)
-      |  ^~~
-..\src\Cipher_Excersie.c:90:40: error: expected '=', ',', ';', 'asm' or '__attribute__' before '!=' token
-   90 |  for(int i=Position;Temp_Space[Spaces] !='\n';i++)
-      |                                        ^~
-..\src\Cipher_Excersie.c:90:48: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
-   90 |  for(int i=Position;Temp_Space[Spaces] !='\n';i++)
-      |                                                ^~
-..\src\Cipher_Excersie.c:97:2: warning: data definition has no type or storage class
-   97 |  size = strlen(Encrypted);
-      |  ^~~~
-..\src\Cipher_Excersie.c:97:2: warning: type defaults to 'int' in declaration of 'size' [-Wimplicit-int]
-..\src\Cipher_Excersie.c:97:16: error: 'Encrypted' undeclared here (not in a function); did you mean 'Encrypt'?
-   97 |  size = strlen(Encrypted);
-      |                ^~~~~~~~~
-      |                Encrypt
-..\src\Cipher_Excersie.c:100:2: error: expected identifier or '(' before 'for'
-  100 |  for(int i=size;i>=0;i--)
-      |  ^~~
-..\src\Cipher_Excersie.c:100:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before '>=' token
-  100 |  for(int i=size;i>=0;i--)
-      |                  ^~
-..\src\Cipher_Excersie.c:100:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '--' token
-  100 |  for(int i=size;i>=0;i--)
-      |                       ^~
-..\src\Cipher_Excersie.c:106:2: error: expected identifier or '(' before 'return'
-  106 |  return EXIT_SUCCESS;
-      |  ^~~~~~
-..\src\Cipher_Excersie.c:107:1: error: expected identifier or '(' before '}' token
-  107 | }
-      | ^
-13:42:52 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:43:49 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-13:46:58 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:48:49 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-13:49:46 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-13:50:11 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-13:53:38 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-13:58:09 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-14:11:20 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:20:7: warning: unused variable 'disregard' [-Wunused-variable]
-   20 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:15:7: warning: variable 'Input_Corrected' set but not used [-Wunused-but-set-variable]
-   15 |  char Input_Corrected[CHAR_MAX];
-      |       ^~~~~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:11:40 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:30:5: error: 'Input_Corrected' undeclared (first use in this function)
-   30 |     Input_Corrected[Position] = User_Input[i];
-      |     ^~~~~~~~~~~~~~~
-..\src\Cipher_Excersie.c:30:5: note: each undeclared identifier is reported only once for each function it appears in
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-14:11:51 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:15:7: warning: variable 'Input_Corrected' set but not used [-Wunused-but-set-variable]
-   15 |  char Input_Corrected[CHAR_MAX];
-      |       ^~~~~~~~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:12:01 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-14:14:41 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:61:6: error: redefinition of 'Position'
-   61 |  int Position = 0;
-      |      ^~~~~~~~
-..\src\Cipher_Excersie.c:20:6: note: previous definition of 'Position' was here
-   20 |  int Position = 0;
-      |      ^~~~~~~~
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-14:14:50 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-14:20:44 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:20:51 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:31:47 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:39:48 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:90:47: warning: comparison between pointer and integer
-   90 |   if(Input_Corrected[i]>='0'&& Input_Corrected<='9')
-      |                                               ^~
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-14:47:40 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:90:47: warning: comparison between pointer and integer
-   90 |   if(Input_Corrected[i]>='0'&& Input_Corrected<='9')
-      |                                               ^~
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-14:49:38 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:90:47: warning: comparison between pointer and integer
-   90 |   if(Input_Corrected[i]>='0'&& Input_Corrected<='9')
-      |                                               ^~
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-14:54:25 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:90:50: warning: comparison between pointer and integer
-   90 |   if((Input_Corrected[i]>='0')&& (Input_Corrected<='9'))
-      |                                                  ^~
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-14:55:52 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:00:50 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-15:08:04 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-15:17:13 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:19:58 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-15:27:58 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-15:29:12 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-15:38:55 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-15:42:40 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-..\src\Cipher_Excersie.c:15:7: warning: variable 'Input_Corrected' set but not used [-Wunused-but-set-variable]
-   15 |  char Input_Corrected[CHAR_MAX];
-      |       ^~~~~~~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:43:09 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:44:17 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-15:49:04 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:53:15 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
-      |       ^~~~~~~~~
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-15:54:01 **** Incremental Build of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   32 |  printf("%d - %d - %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+11:31:55 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:28:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |         ~^        ~~~~~~~~~~
+      |          |             |
+      |          int *         int
+..\src\Data_Struct_Excersice.c:28:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |            ~^                ~~~~~~~~~~~
+      |             |                     |
+      |             int *                 int
+..\src\Data_Struct_Excersice.c:28:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |               ~^                         ~~~~~~~~~
+      |                |                              |
+      |                int *                          int
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   32 |  printf("%d - %d - %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+11:32:27 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:28:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |         ~^        ~~~~~~~~~~
+      |          |             |
+      |          int *         int
+..\src\Data_Struct_Excersice.c:28:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |            ~^                ~~~~~~~~~~~
+      |             |                     |
+      |             int *                 int
+..\src\Data_Struct_Excersice.c:28:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'int' [-Wformat=]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |               ~^                         ~~~~~~~~~
+      |                |                              |
+      |                int *                          int
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   28 |  scanf("%d %d %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:28:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.day' is used uninitialized in this function [-Wuninitialized]
+   32 |  printf("%d - %d - %d",Input.year,Input.month,Input.day);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.month' is used uninitialized in this function [-Wuninitialized]
+..\src\Data_Struct_Excersice.c:32:2: warning: 'Input.year' is used uninitialized in this function [-Wuninitialized]
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+11:36:09 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+..\src\Data_Struct_Excersice.c: In function 'main':
+..\src\Data_Struct_Excersice.c:29:55: error: expected ';' before 'printf'
+   29 |  scanf("%d %d %d",&Input.year,&Input.month,&Input.day)
+      |                                                       ^
+      |                                                       ;
+......
+   32 |  printf("%d - %d - %d",Input.year,Input.month,Input.day);
+      |  ~~~~~~                                                
+11:36:19 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+Info: Nothing to build for Data_Struct_Excersice
+11:36:51 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+11:39:34 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 
+11:40:11 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Data_Struct_Excersice.o" "..\\src\\Data_Struct_Excersice.c" 
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" 

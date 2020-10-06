@@ -1,0 +1,77 @@
+/*
+ * Encrypt.c
+ *
+ *  Created on: 5 okt. 2020
+ *      Author: blomg
+ */
+
+#include "header.h"
+
+void Encrypt(char Input_Corrected[CHAR_MAX]){
+
+	char Encrypted[CHAR_MAX];
+	char Temp_array[CHAR_MAX];
+	char Temp_Space[CHAR_MAX];
+	int size = strlen(Input_Corrected);
+	int Spaces = 0;
+	int Position = 0;
+	int Number_Of_Letters = 0;
+
+	for(int i=0;i<size;i++)
+	{
+		if(Input_Corrected[i]>='a'&& Input_Corrected[i]<='y')
+		{
+			Number_Of_Letters++;
+			Temp_array[Position] = toupper(Input_Corrected[i]+1);
+			Position++;
+		}
+		if(Input_Corrected[i]=='z')
+		{
+			Number_Of_Letters++;
+			Temp_array[Position] = 'A';
+			Position++;
+
+		}
+		if(isdigit(Input_Corrected[i]))
+		{
+			Temp_array[Position] = Input_Corrected[i];
+			Position++;
+		}
+		if(Input_Corrected[i]==' ')
+		{
+			Temp_Space[Spaces] = 'a' + i;
+			Spaces++;
+		}
+	}
+	for(int i=0;i<size;i++)
+	{
+		if(isdigit(Temp_array[i]))
+		{
+		int temp = Temp_array[i] -'0';
+		temp += Number_Of_Letters;
+		temp %= REMAINDER;
+		Temp_array[i] = temp + '0';
+		}
+	}
+	Temp_Space[Spaces] = '\n';
+	Spaces = 0;
+	for(int i=Position;Temp_Space[Spaces] !='\n';i++)
+	{
+
+		Temp_array[i]= Temp_Space[Spaces];
+		Spaces++;
+		Position++;
+
+	}
+
+	size = strlen(Temp_array);
+	Temp_array[size] = '\n';
+	int k = 0;
+
+	for(int i=size;i>=0;i--)
+	{
+		Encrypted[k] = Temp_array[i];
+		printf("%c", Encrypted[k]);
+		k++;
+	}
+}
