@@ -1,0 +1,2 @@
+Control if given month has the correct days ( ex: Jan = 31, feb = 28... )
+Check if its a leap year ( Every leap year can be divided by 4, not by 100 but with 400 )

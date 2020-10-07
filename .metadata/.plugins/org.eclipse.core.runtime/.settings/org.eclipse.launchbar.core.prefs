@@ -10,6 +10,6 @@ org.eclipse.launchbar.core.descriptorType.default\:Cipher_Excersie.exe\ (1)/acti
 org.eclipse.launchbar.core.descriptorType.default\:Cipher_Excersie.exe\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Cipher_Excersie.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Cipher_Excersie.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:Data_Struct_Excersice.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Data_Struct_Excersice.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:helloWorld.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:helloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

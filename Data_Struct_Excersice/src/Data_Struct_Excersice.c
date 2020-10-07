@@ -14,43 +14,29 @@ int main(void) {
 
 	setbuf(stdout,NULL);
 	_Bool Valid_Input = true;
-	Dates Filtered_Input[2];
 
 	do{
 		Valid_Input = true;
-		printf(" Enter the first values: (Year-Month-Day)\n");
-		Filtered_Input[0] = Input();
+		printf(" Welcome!\n 1.Do you want to run Date Array? (Store 4 arrays)\n 2.Do you want to check Date difference?\n 3.Quit\n");
+		char temp = getchar();
+		char disregard = getchar();
 
-		printf(" Enter the second row of values: (Year-Month-Day\n");
-		Filtered_Input[1] = Input();
+		if(temp =='1')
+			Date_Array();
 
-		for(int i=0;i<2;i++)
-		{
-			if(Filtered_Input[i].year>MAX_YEAR)
-			{
-				Valid_Input = false;
-			}
-			if(Filtered_Input[i].month>MAX_MONTH)
-			{
-				Valid_Input = false;
-			}
-			if(Filtered_Input[i].day>MAX_DAYS)
-			{
-				Valid_Input = false;
-			}
-		}
+		if(temp =='2')
+			Datediff_Start();
 
-		if(!Valid_Input)
-		{
-			printf(" Month can't be above 12, and days can't be above 30\n");
-		}
+		if(temp =='3')
+			Valid_Input = false;
+
+
 
 	}while(!Valid_Input);
 
+	printf("\n Goodbye!");
 
-//	Dates diff = datediff(Input[0],Input[1]);
-
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 
 }
 

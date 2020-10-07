@@ -24,7 +24,7 @@ Dates datediff (Dates d1, Dates d2){
 	}
 	if (d1.month<d2.month)
 	{
-		diff.month = d2.month - d2.month;
+		diff.month = d2.month - d1.month;
 	}
 	if (d1.day>=d2.day)
 	{
