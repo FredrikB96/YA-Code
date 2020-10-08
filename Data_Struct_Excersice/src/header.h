@@ -29,6 +29,8 @@ typedef struct {
 #define MAX_DAYS 30
 #define INPUTS_STORED 3
 #define DATE_ARRAY 4
+#define EARLIEST_YEAR 1582
+
 
 Dates Input(char User_Input[MAX_INPUT]);
 Dates datediff (Dates d1, Dates d2);
@@ -36,6 +38,7 @@ void Datediff_Start();
 void Date_Array();
 Dates readdate(int i);
 void printdate();
-_Bool Input_Control(int Inputs, Dates date);
+_Bool Input_Control(Dates date);
+_Bool Leap_Year(Dates date);
 
 #endif /* HEADER_H_ */

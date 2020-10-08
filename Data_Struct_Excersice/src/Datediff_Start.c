@@ -21,7 +21,7 @@ void Datediff_Start() {
 		fgets(User_Input,MAX_INPUT,stdin);
 		Filtered_Input[i] = Input(User_Input);
 		fflush(stdin);
-		Valid_Input = Input_Control(INPUTS, Filtered_Input[i]);
+		Valid_Input = Input_Control(Filtered_Input[i]);
 		if(!Valid_Input)
 		{
 			i--;

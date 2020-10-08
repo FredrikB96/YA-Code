@@ -19,11 +19,11 @@ void Date_Array() {
 		fgets(User_Input,MAX_INPUT,stdin);
 		date[i] = Input(User_Input);
 		fflush(stdin);
-		Valid = Input_Control(DATE_ARRAY, date[i]);
+		Valid = Input_Control(date[i]);
 		if(!Valid)
 		{
 			i--;
-			printf("\n Entered either above 2048 years, above 12 months or above 30 days!");
+			printf("\n Enter a date between 1582-2048, with a maximum value of 12 in months and have correct days in the month!");
 		}
 	}
 
