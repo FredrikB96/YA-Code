@@ -8,6 +8,7 @@
 
 Dates Input(char User_Input[MAX_INPUT]){
 
+	_Bool Not_Digit = false;
 	int Year_Length = 4;
 	int Day_Month_Length = 2;
 	unsigned char Temp_Array[MAX_INPUT];
@@ -17,13 +18,17 @@ Dates Input(char User_Input[MAX_INPUT]){
 	char temp;
 
 
-	for(i=0;temp!='-';i++)
+	for(i=0;!Not_Digit;i++)
 	{
 		temp = User_Input[Position];
 		if(isdigit(temp))
 		{
 			Temp_Array[i] = temp;
 			Position++;
+		}
+		if(!isdigit(temp))
+		{
+			Not_Digit = true;
 		}
 	}
 	i--;
@@ -35,14 +40,19 @@ Dates Input(char User_Input[MAX_INPUT]){
 	}
 	temp = 0;
 	Position++;
+	Not_Digit = false;
 
-	for(i=0;temp!='-';i++)
+	for(i=0;!Not_Digit;i++)
 	{
 		temp = User_Input[Position];
 		if(isdigit(temp))
 		{
 			Temp_Array[i] = temp;
 			Position++;
+		}
+		if(!isdigit(temp))
+		{
+			Not_Digit = true;
 		}
 	}
 	i--;

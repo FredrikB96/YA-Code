@@ -141,3 +141,202 @@ Info: Nothing to build for Data_Struct_Excersice
 Info: Nothing to build for Data_Struct_Excersice
 Info: Nothing to build for Data_Struct_Excersice
 Info: Nothing to build for Data_Struct_Excersice
+00:59:22 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:36:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   36 |  int User_Length = strlen(Temp_Array);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:39:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   39 |   Input.year = atoi(Temp_Array);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:55:24: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   55 |   User_Length = strlen(Temp_Array);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:58:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   58 |   Input.month = atoi(Temp_Array);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:74:23: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   74 |  User_Length = strlen(Temp_Array);
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:77:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   77 |   Input.day = atoi(Temp_Array);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" "src\\Date_Array.o" "src\\Datediff_Start.o" "src\\Datesdiff.o" "src\\Input.o" "src\\Input_Control.o" 
+Info: Nothing to build for Data_Struct_Excersice
+01:03:53 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:36:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   36 |  int User_Length = strlen(Temp_Array);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:39:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   39 |   Input.year = atoi(Temp_Array);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:59:24: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   59 |   User_Length = strlen(Temp_Array);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:62:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   62 |   Input.month = atoi(Temp_Array);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:78:23: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   78 |  User_Length = strlen(Temp_Array);
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:81:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   81 |   Input.day = atoi(Temp_Array);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" "src\\Date_Array.o" "src\\Datediff_Start.o" "src\\Datesdiff.o" "src\\Input.o" "src\\Input_Control.o" 
+Info: Nothing to build for Data_Struct_Excersice
+Info: Nothing to build for Data_Struct_Excersice
+01:06:15 **** Incremental Build of configuration Debug for project Data_Struct_Excersice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+..\src\Input.c: In function 'Input':
+..\src\Input.c:36:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   36 |  int User_Length = strlen(Temp_Array);
+      |                           ^~~~~~~~~~
+      |                           |
+      |                           unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:39:21: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   39 |   Input.year = atoi(Temp_Array);
+      |                     ^~~~~~~~~~
+      |                     |
+      |                     unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:60:24: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   60 |   User_Length = strlen(Temp_Array);
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:63:22: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   63 |   Input.month = atoi(Temp_Array);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Input.c:79:23: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   79 |  User_Length = strlen(Temp_Array);
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       unsigned char *
+In file included from ..\src\header.h:13,
+                 from ..\src\Input.c:7:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'unsigned char *'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\Input.c:82:20: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+   82 |   Input.day = atoi(Temp_Array);
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    unsigned char *
+In file included from ..\src\header.h:15,
+                 from ..\src\Input.c:7:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'unsigned char *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Data_Struct_Excersice.exe "src\\Data_Struct_Excersice.o" "src\\Date_Array.o" "src\\Datediff_Start.o" "src\\Datesdiff.o" "src\\Input.o" "src\\Input_Control.o" 
+Info: Nothing to build for Data_Struct_Excersice
