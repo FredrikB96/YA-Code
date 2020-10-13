@@ -34,6 +34,6 @@ void Datediff_Start() {
 	Dates diff = datediff(Filtered_Input[0],Filtered_Input[1]);
 
 
-	printf(" The difference is %d years, %d months and %d days\n",diff.year,diff.month,diff.day);
+	printf("\n The difference is %d years, %d months and %d days\n",diff.year,diff.month,diff.day);
 
 }

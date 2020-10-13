@@ -62,9 +62,7 @@ _Bool Leap_Year(Dates date){
 	int B = 100;
 	int C = 400;
 
-	int sumA = date.year % A;
-	int sumB = date.year % B;
-	int sumC = date.year % C;
+
 
 
 	if(date.year % A == 0)
@@ -81,11 +79,6 @@ _Bool Leap_Year(Dates date){
 			Leap_Year = true;
 		}
 	}
-
-	//	if((!date.year % B || date.year % C)&&(date.year % A))
-	//	{
-	//		Leap_Year = true;
-	//	}
 
 	if(Leap_Year)
 	{
