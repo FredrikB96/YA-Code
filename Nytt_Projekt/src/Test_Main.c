@@ -10,8 +10,6 @@
 /// supply path to .h file holding function headers of your test target
 #include "header.h"
 
-Dates Ref_Date ={1600,9,15};
-
 
 SimpleTest_Initialize()					// Counters for all tests are reset here
 
@@ -22,6 +20,8 @@ SimpleTest_CreateTest(DatesdiffTest)  	// Single test defined
 {
 	/// define your test by calling functions from test target
 	//  << TEST CODE GOES HERE >>
+	Dates Ref_Date ={1600,9,15};
+
 
 	Dates Test_Date ={2020,2,29};
 

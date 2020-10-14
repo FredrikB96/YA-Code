@@ -1,21 +1,66 @@
-14:58:42 **** Rebuild of configuration Debug for project Nytt_Projekt ****
+14:01:29 **** Incremental Build of configuration Debug for project Simple_Pointer_try ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input_Control.o" "..\\src\\Input_Control.c" 
-gcc -o Nytt_Projekt.exe "src\\Datesdiff.o" "src\\Input_Control.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
-collect2.exe: error: ld returned 1 exit status
-14:59:36 **** Incremental Build of configuration Debug for project Nytt_Projekt ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Simple_Pointer try.o" "..\\src\\Simple_Pointer try.c" 
+..\src\Simple_Pointer try.c: In function 'main':
+..\src\Simple_Pointer try.c:24:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   24 |  Fptr = Value1;
+      |       ^
+..\src\Simple_Pointer try.c:25:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 |  Sptr = Value2;
+      |       ^
+..\src\Simple_Pointer try.c:27:12: warning: implicit declaration of function 'Addition' [-Wimplicit-function-declaration]
+   27 |  int sum = Addition(Fptr,Sptr);
+      |            ^~~~~~~~
+gcc -o Simple_Pointer_try.exe "src\\Simple_Pointer try.o" 
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
+14:03:25 **** Incremental Build of configuration Debug for project Simple_Pointer_try ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input_Control.o" "..\\src\\Input_Control.c" 
-gcc -o Nytt_Projekt.exe "src\\Datesdiff.o" "src\\Input_Control.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
-collect2.exe: error: ld returned 1 exit status
-15:11:03 **** Incremental Build of configuration Debug for project Nytt_Projekt ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Simple_Pointer try.o" "..\\src\\Simple_Pointer try.c" 
+..\src\Simple_Pointer try.c: In function 'main':
+..\src\Simple_Pointer try.c:24:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   24 |  Fptr = Value1;
+      |       ^
+..\src\Simple_Pointer try.c:25:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 |  Sptr = Value2;
+      |       ^
+..\src\Simple_Pointer try.c:28:12: warning: implicit declaration of function 'Addition' [-Wimplicit-function-declaration]
+   28 |  int sum = Addition(&Fptr,&Sptr);
+      |            ^~~~~~~~
+gcc -o Simple_Pointer_try.exe "src\\Simple_Pointer try.o" 
+Info: Nothing to build for Simple_Pointer_try
+14:03:40 **** Incremental Build of configuration Debug for project Simple_Pointer_try ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input_Control.o" "..\\src\\Input_Control.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test_Main.o" "..\\src\\Test_Main.c" 
-gcc -o Nytt_Projekt.exe "src\\Datesdiff.o" "src\\Input_Control.o" "src\\Test_Main.o" 
-Info: Nothing to build for Nytt_Projekt
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Simple_Pointer try.o" "..\\src\\Simple_Pointer try.c" 
+..\src\Simple_Pointer try.c: In function 'main':
+..\src\Simple_Pointer try.c:24:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   24 |  Fptr = Value1;
+      |       ^
+..\src\Simple_Pointer try.c:25:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 |  Sptr = Value2;
+      |       ^
+..\src\Simple_Pointer try.c:28:12: warning: implicit declaration of function 'Addition' [-Wimplicit-function-declaration]
+   28 |  int sum = Addition(*Fptr,*Sptr);
+      |            ^~~~~~~~
+gcc -o Simple_Pointer_try.exe "src\\Simple_Pointer try.o" 
+Info: Nothing to build for Simple_Pointer_try
+14:04:00 **** Incremental Build of configuration Debug for project Simple_Pointer_try ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Simple_Pointer try.o" "..\\src\\Simple_Pointer try.c" 
+..\src\Simple_Pointer try.c: In function 'main':
+..\src\Simple_Pointer try.c:28:12: warning: implicit declaration of function 'Addition' [-Wimplicit-function-declaration]
+   28 |  int sum = Addition(Fptr,Sptr);
+      |            ^~~~~~~~
+..\src\Simple_Pointer try.c:24:8: warning: 'Fptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  *Fptr = Value1;
+      |  ~~~~~~^~~~~~~~
+..\src\Simple_Pointer try.c:25:8: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   25 |  *Sptr = Value2;
+      |  ~~~~~~^~~~~~~~
+gcc -o Simple_Pointer_try.exe "src\\Simple_Pointer try.o" 
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
+Info: Nothing to build for Simple_Pointer_try
