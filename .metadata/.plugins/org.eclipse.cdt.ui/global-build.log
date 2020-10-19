@@ -1,1073 +1,244 @@
-10:36:11 **** Rebuild of configuration Debug for project NumberPointers ****
+20:21:20 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
-   13 | void main(){
-      |      ^~~~
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-10:37:56 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:23:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   23 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+Info: Nothing to build for String_Project
+20:22:35 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
-   13 | void main(){
-      |      ^~~~
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:39:47 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
-   13 | void main(){
-      |      ^~~~
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-10:40:44 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-10:41:17 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:42:14 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:44:31 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
-   16 |  int size = 0;
-      |      ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:52:00 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:16: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
-   42 |   fgets(Numbers[i],size,stdin);
-      |         ~~~~~~~^~~
-      |                |
-      |                int
-In file included from ..\src\Numbers_Main.c:8:
-c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'int'
-  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
-      |                                         ^~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:53:30 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:16: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
-   42 |   fgets(Numbers[i],size,stdin);
-      |         ~~~~~~~^~~
-      |                |
-      |                int
-In file included from ..\src\Numbers_Main.c:8:
-c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'int'
-  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
-      |                                         ^~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file NumberPointers.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file String_Project.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-10:53:37 **** Incremental Build of configuration Debug for project NumberPointers ****
+20:22:44 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-10:55:03 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:23:53 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:9: warning: passing argument 1 of 'fgets' from incompatible pointer type [-Wincompatible-pointer-types]
-   42 |   fgets(Numbers,size,stdin);
-      |         ^~~~~~~
-      |         |
-      |         int *
-In file included from ..\src\Numbers_Main.c:8:
-c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'int *'
-  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
-      |                                         ^~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:00:15 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:24:25 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:39:18: error: invalid initializer
-   39 |  int Numbers[] = (int)malloc(size);
-      |                  ^
-..\src\Numbers_Main.c:39:6: warning: unused variable 'Numbers' [-Wunused-variable]
-   39 |  int Numbers[] = (int)malloc(size);
-      |      ^~~~~~~
-11:04:46 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:25:40 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:40:14: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   40 |  int *Nptr = (int)malloc(size);
-      |              ^
-..\src\Numbers_Main.c:45:3: error: invalid type argument of unary '*' (have 'int')
-   45 |   *Nptr[i] = rand % 99;
-      |   ^~~~~~~~
-..\src\Numbers_Main.c:45:19: error: invalid operands to binary % (have 'int (__attribute__((cdecl)) *)(void)' {aka 'int (*)(void)'} and 'int')
-   45 |   *Nptr[i] = rand % 99;
-      |              ~~~~ ^
-      |              |
-      |              int (__attribute__((cdecl)) *)(void) {aka int (*)(void)}
-11:04:55 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:38:24 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:40:14: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   40 |  int *Nptr = (int)malloc(size);
-      |              ^
-..\src\Numbers_Main.c:45:18: error: invalid operands to binary % (have 'int (__attribute__((cdecl)) *)(void)' {aka 'int (*)(void)'} and 'int')
-   45 |   Nptr[i] = rand % 99;
-      |             ~~~~ ^
-      |             |
-      |             int (__attribute__((cdecl)) *)(void) {aka int (*)(void)}
-11:05:05 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:41:17 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:40:14: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   40 |  int *Nptr = (int)malloc(size);
-      |              ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-11:07:37 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+Info: Nothing to build for Cipher_Excersie
+20:44:42 **** Rebuild of configuration Debug for project Cipher_Excersie-old ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:41:15: warning: implicit declaration of function 'intmalloc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
-   41 |  int Numbers[(intmalloc(size))];
-      |               ^~~~~~~~~
-      |               malloc
-..\src\Numbers_Main.c:41:6: warning: variable 'Numbers' set but not used [-Wunused-but-set-variable]
-   41 |  int Numbers[(intmalloc(size))];
-      |      ^~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Numbers_Main.o: in function `main':
-C:\Users\Benny\Documents\GitHub\YA-Code\NumberPointers\Debug/../src/Numbers_Main.c:41: undefined reference to `intmalloc'
-collect2.exe: error: ld returned 1 exit status
-11:08:03 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:41:6: warning: variable 'Numbers' set but not used [-Wunused-but-set-variable]
-   41 |  int Numbers[((int)malloc(size))];
-      |      ^~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-11:13:15 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |                                         ^~
-..\src\Numbers_Main.c:42:48: error: expected ')' before ';' token
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |    ~                                           ^
-      |                                                )
-..\src\Numbers_Main.c:52:1: error: expected expression before '}' token
-   52 | }
-      | ^
-11:13:40 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:40: warning: comparison between pointer and integer
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |                                        ^~
-..\src\Numbers_Main.c:42:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |     ^
-..\src\Numbers_Main.c:42:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |  ^~
-..\src\Numbers_Main.c:43:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
-   43 |  {
-      |  ^
-..\src\Numbers_Main.c:42:10: warning: 'Nptr' is used uninitialized in this function [-Wuninitialized]
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL);
-      |          ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:14:28 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:40: warning: comparison between pointer and integer
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL)
-      |                                        ^~
-..\src\Numbers_Main.c:42:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL)
-      |     ^
-..\src\Numbers_Main.c:42:10: warning: 'Nptr' is used uninitialized in this function [-Wuninitialized]
-   42 |  if(*Nptr=(int)malloc(sizeof(int)*size)==NULL)
-      |          ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:14:44 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:42:11: warning: 'Nptr' is used uninitialized in this function [-Wuninitialized]
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:15:40 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:48:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   48 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:41:14: warning: variable 'Sptr' set but not used [-Wunused-but-set-variable]
-   41 |  int *Nptr, *Sptr;
-      |              ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:16:12 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:48:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   48 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:53:8: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   53 |   Nptr = rand() % 99;
-      |        ^
-..\src\Numbers_Main.c:41:14: warning: variable 'Sptr' set but not used [-Wunused-but-set-variable]
-   41 |  int *Nptr, *Sptr;
-      |              ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:16:21 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:48:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   48 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:41:14: warning: variable 'Sptr' set but not used [-Wunused-but-set-variable]
-   41 |  int *Nptr, *Sptr;
-      |              ^~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:19:03 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:42:41: warning: comparison between pointer and integer
-   42 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:48:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   48 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:57:7: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   57 |  Nptr = &Sptr;
-      |       ^
-..\src\Numbers_Main.c:58:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-   58 |  printf("\n Start address: %d", &Sptr);
-      |                            ~^   ~~~~~
-      |                             |   |
-      |                             int int **
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:21:39 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:44:41: warning: comparison between pointer and integer
-   44 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:50:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   50 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:60:7: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   60 |  Nptr = &Sptr;
-      |       ^
-..\src\Numbers_Main.c:61:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-   61 |  printf("\n Start address: %d", &Sptr);
-      |                            ~^   ~~~~~
-      |                             |   |
-      |                             int int **
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-11:24:33 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:44:41: warning: comparison between pointer and integer
-   44 |  if((*Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                         ^~
-..\src\Numbers_Main.c:50:8: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   50 |   Sptr = &Nptr;
-      |        ^
-..\src\Numbers_Main.c:60:7: warning: assignment to 'int *' from incompatible pointer type 'int **' [-Wincompatible-pointer-types]
-   60 |  Nptr = &Sptr;
-      |       ^
-..\src\Numbers_Main.c:61:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-   61 |  printf("\n Start address: %d", Sptr);
-      |                            ~^   ~~~~
-      |                             |   |
-      |                             int int *
-      |                            %n
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-11:28:16 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:44:40: warning: comparison between pointer and integer
-   44 |  if((Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |                                        ^~
-..\src\Numbers_Main.c:44:10: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   44 |  if((Nptr=(int)malloc(sizeof(int)*size)==NULL))
-      |          ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:28:34 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:44:10: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   44 |  if((Nptr=(int*)malloc(sizeof(int)*size)==NULL))
-      |          ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-11:29:21 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-11:38:34 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-In file included from ..\src\Numbers_Functions.c:8:
-..\src\Numbers_Header.h:17:37: error: unknown type name 'size'; did you mean 'size_t'?
-   17 | void Mean_Value(int *ptr, int *Mptr,size);
-      |                                     ^~~~
-      |                                     size_t
-11:38:46 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:2: error: called object 'Mean_Value' is not a function or function pointer
-   70 |  Mean_Value(Nptr,Mptr,size);
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-11:39:09 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:2: error: called object 'Mean_Value' is not a function or function pointer
-   70 |  Mean_Value(Nptr,Mptr,size);
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-11:39:51 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:2: error: called object 'Mean_Value' is not a function or function pointer
-   70 |  Mean_Value( &Nptr, &Mptr, size);
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-11:41:12 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:2: error: called object 'Mean_Value' is not a function or function pointer
-   70 |  Mean_Value(Nptr, Mptr,size);
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-11:41:26 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:2: error: called object 'Mean_Value' is not a function or function pointer
-   70 |  Mean_Value(Nptr, Mptr,size);
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-..\src\Numbers_Main.c:71:2: error: called object 'Mean_Value' is not a function or function pointer
-   71 |  Mean_Value();
-      |  ^~~~~~~~~~
-..\src\Numbers_Main.c:15:6: note: declared here
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-11:42:28 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-11:45:29 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:15:6: warning: unused variable 'Mean_Value' [-Wunused-variable]
-   15 |  int Mean_Value = 0;
-      |      ^~~~~~~~~~
-..\src\Numbers_Main.c:69:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   69 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-11:48:31 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-11:49:07 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-   17 |  Mptr = Mean_Value
-      |       ^
-..\src\Numbers_Main.c:17:19: error: expected ';' before 'int'
-   17 |  Mptr = Mean_Value
-      |                   ^
-      |                   ;
-   18 |  int size = 0;
-      |  ~~~               
-..\src\Numbers_Main.c:36:2: error: 'size' undeclared (first use in this function)
-   36 |  size = atoi(Input); // Getting the value of the array, will remove end of string character and store the rest.
-      |  ^~~~
-..\src\Numbers_Main.c:36:2: note: each undeclared identifier is reported only once for each function it appears in
-11:49:12 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:20: error: expected ';' before 'int'
-   17 |  *Mptr = Mean_Value
-      |                    ^
-      |                    ;
-   18 |  int size = 0;
-      |  ~~~                
-..\src\Numbers_Main.c:36:2: error: 'size' undeclared (first use in this function)
-   36 |  size = atoi(Input); // Getting the value of the array, will remove end of string character and store the rest.
-      |  ^~~~
-..\src\Numbers_Main.c:36:2: note: each undeclared identifier is reported only once for each function it appears in
-11:49:26 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-11:50:09 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'Mean_Calculation':
-..\src\Numbers_Functions.c:18:3: warning: value computed is not used [-Wunused-value]
-   18 |   *ptr++;
-      |   ^~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-12:57:13 **** Rebuild of configuration Debug for project Cipher_Excersie ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -o Cipher_Excersie.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Cipher_Excersie
-Info: Nothing to build for Cipher_Excersie
-14:23:40 **** Rebuild of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
+..\src\Cipher_Excersie.c: In function 'main':
+..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
+   19 |  char disregard = getchar();
+      |       ^~~~~~~~~
+gcc -o Cipher_Excersie-old.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
+Info: Nothing to build for Data_Struct_Excersice
+20:44:43 **** Rebuild of configuration Debug for project DynamicPointers ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'Mean_Calculation':
-..\src\Numbers_Functions.c:18:3: warning: value computed is not used [-Wunused-value]
-   18 |   *ptr++;
-      |   ^~~~~~
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:33:9: warning: comparison between pointer and integer
-   33 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:37:9: warning: comparison between pointer and integer
-   37 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:25:26 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:33:9: warning: comparison between pointer and integer
-   33 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:37:9: warning: comparison between pointer and integer
-   37 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:26:40 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:33:9: warning: comparison between pointer and integer
-   33 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:37:9: warning: comparison between pointer and integer
-   37 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:72:25: warning: passing argument 2 of 'Mean_Calculation' from incompatible pointer type [-Wincompatible-pointer-types]
-   72 |  Mean_Calculation(Nptr, Mptr,size);
-      |                         ^~~~
-      |                         |
-      |                         float *
-In file included from ..\src\Numbers_Main.c:8:
-..\src\Numbers_Header.h:24:38: note: expected 'int *' but argument is of type 'float *'
-   24 | void Mean_Calculation(int *ptr, int *Mptr,int size);
-      |                                 ~~~~~^~~~
-..\src\Numbers_Main.c:74:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   74 |  printf("\n Mean value are: %d", *Mptr);
-      |                             ~^   ~~~~~
-      |                              |   |
-      |                              int double
-      |                             %f
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:26:52 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Structmx.o" "..\\src\\Structmx.c" 
+gcc -o DynamicPointers.exe "src\\Structmx.o" 
+20:44:45 **** Incremental Build of configuration Debug for project NumberPointers ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
 gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:27:08 **** Incremental Build of configuration Debug for project NumberPointers ****
+20:44:45 **** Rebuild of configuration Debug for project Number_Array_Median ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:29:50 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main_File.o" "..\\src\\Main_File.c" 
+..\src\Main_File.c: In function 'main':
+..\src\Main_File.c:32:11: warning: passing argument 1 of 'PrintOut' makes pointer from integer without a cast [-Wint-conversion]
+   32 |  PrintOut(med1,med2,p1,p2);
+      |           ^~~~
+      |           |
+      |           int
+In file included from ..\src\Main_File.c:8:
+..\src\header.h:21:20: note: expected 'int *' but argument is of type 'int'
+   21 | void PrintOut(int *median1,int *median2, int *temp1,int *temp2);
+      |               ~~~~~^~~~~~~
+..\src\Main_File.c:32:16: warning: passing argument 2 of 'PrintOut' makes pointer from integer without a cast [-Wint-conversion]
+   32 |  PrintOut(med1,med2,p1,p2);
+      |                ^~~~
+      |                |
+      |                int
+In file included from ..\src\Main_File.c:8:
+..\src\header.h:21:33: note: expected 'int *' but argument is of type 'int'
+   21 | void PrintOut(int *median1,int *median2, int *temp1,int *temp2);
+      |                            ~~~~~^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Number_Array_Median.o" "..\\src\\Number_Array_Median.c" 
+..\src\Number_Array_Median.c: In function 'PrintOut':
+..\src\Number_Array_Median.c:36:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("\n Median of first array are: %d", median1); // printing out the median value of the first array
+      |                                        ~^   ~~~~~~~
+      |                                         |   |
+      |                                         int int *
+      |                                        %n
+..\src\Number_Array_Median.c:47:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   47 |  printf("\n Median of second array are: %d", median2);
+      |                                         ~^   ~~~~~~~
+      |                                          |   |
+      |                                          int int *
+      |                                         %n
+gcc -o Number_Array_Median.exe "src\\Main_File.o" "src\\Number_Array_Median.o" 
+20:44:46 **** Rebuild of configuration Debug for project Nytt_Projekt ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'Mean_Calculation':
-..\src\Numbers_Functions.c:14:8: warning: variable 'Median' set but not used [-Wunused-but-set-variable]
-   14 |  float Median = 0;
-      |        ^~~~~~
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:29:59 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input_Control.o" "..\\src\\Input_Control.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test_Main.o" "..\\src\\Test_Main.c" 
+gcc -o Nytt_Projekt.exe "src\\Datesdiff.o" "src\\Input_Control.o" "src\\Test_Main.o" 
+20:44:48 **** Rebuild of configuration Debug for project PointersProject ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:32:11 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PointerSorting.o" "..\\src\\PointerSorting.c" 
+Command canceled
+20:46:24 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:74:33: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
-   74 |  printf("\n Mean value are: %2.5f", *Mptr);
-      |                             ~~~~^   ~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:30:16: error: called object 'lowest' is not a function or function pointer
+   30 |  char lowest = lowest(*Uptr,size);
+      |                ^~~~~~
+..\src\String_Project.c:30:7: note: declared here
+   30 |  char lowest = lowest(*Uptr,size);
+      |       ^~~~~~
+20:47:08 **** Incremental Build of configuration Debug for project String_Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:30:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
+   30 |  char lower = lowest(*Uptr,size);
+      |                      ^~~~~
+      |                      |
+      |                      char
+In file included from ..\src\String_Project.c:12:
+..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
+   21 | char lowest(char *Upt, int size);
+      |             ~~~~~~^~~
+..\src\String_Project.c:33:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char (*)(char *, int)' [-Wformat=]
+   33 |  printf("Lowest character are: %c", lowest);
+      |                                ~^   ~~~~~~
       |                                 |   |
-      |                                 |   int
-      |                                 double
-      |                             %2.5d
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:32:23 **** Incremental Build of configuration Debug for project NumberPointers ****
+      |                                 int char (*)(char *, int)
+..\src\String_Project.c:30:7: warning: unused variable 'lower' [-Wunused-variable]
+   30 |  char lower = lowest(*Uptr,size);
+      |       ^~~~~
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+..\src\string_function.c: In function 'lowest':
+..\src\string_function.c:68:11: error: lvalue required as left operand of assignment
+   68 |    lowest = temp;
+      |           ^
+20:47:20 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:74:31: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
-   74 |  printf("\n Mean value are: %2f", *Mptr);
-      |                             ~~^   ~~~~~
-      |                               |   |
-      |                               |   int
-      |                               double
-      |                             %2d
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:32:34 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+20:56:09 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:32:52 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:31:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
+   31 |  char lower = lowest(*Uptr,size);
+      |                      ^~~~~
+      |                      |
+      |                      char
+In file included from ..\src\String_Project.c:12:
+..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
+   21 | char lowest(char *Upt, int size);
+      |             ~~~~~~^~~
+..\src\String_Project.c:34:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char (*)(char *, int)' [-Wformat=]
+   34 |  printf("Lowest character are: %c", lowest);
+      |                                ~^   ~~~~~~
+      |                                 |   |
+      |                                 int char (*)(char *, int)
+..\src\String_Project.c:31:7: warning: unused variable 'lower' [-Wunused-variable]
+   31 |  char lower = lowest(*Uptr,size);
+      |       ^~~~~
+..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
+   24 |  Uptr = Sptr;
+      |  ~~~~~^~~~~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+21:05:00 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:34:03 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+..\src\String_Project.c: In function 'main':
+..\src\String_Project.c:29:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
+   29 |  char lower = lowest(*Uptr,size);
+      |                      ^~~~~
+      |                      |
+      |                      char
+In file included from ..\src\String_Project.c:12:
+..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
+   21 | char lowest(char *Upt, int size);
+      |             ~~~~~~^~~
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+21:05:15 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:35:21 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+21:08:20 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c:27:8: error: conflicting types for 'High_Low'
-   27 | Values High_Low(int *ptr, int size)
-      |        ^~~~~~~~
-In file included from ..\src\Numbers_Functions.c:8:
-..\src\Numbers_Header.h:25:6: note: previous declaration of 'High_Low' was here
-   25 | void High_Low(int *ptr, int size);
-      |      ^~~~~~~~
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-14:35:39 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+21:09:08 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:71:12: error: expected expression before 'int'
-   71 |   High_Low(int *ptr, int size)
-      |            ^~~
-..\src\Numbers_Main.c:71:3: error: too few arguments to function 'High_Low'
-   71 |   High_Low(int *ptr, int size)
-      |   ^~~~~~~~
-In file included from ..\src\Numbers_Main.c:8:
-..\src\Numbers_Header.h:25:8: note: declared here
-   25 | Values High_Low(int *ptr, int size);
-      |        ^~~~~~~~
-..\src\Numbers_Main.c:71:31: error: expected ';' before 'printf'
-   71 |   High_Low(int *ptr, int size)
-      |                               ^
-      |                               ;
-......
-   74 |  printf("\n Mean value are: %d", *Mptr);
-      |  ~~~~~~                        
-14:35:52 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+21:10:24 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:37:56 **** Incremental Build of configuration Debug for project NumberPointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
+21:16:43 **** Incremental Build of configuration Debug for project String_Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:38:37 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:34:9: warning: comparison between pointer and integer
-   34 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:38:9: warning: comparison between pointer and integer
-   38 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:39:29 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:35:9: warning: comparison between pointer and integer
-   35 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:39:9: warning: comparison between pointer and integer
-   39 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:40:00 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:35:9: warning: comparison between pointer and integer
-   35 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:39:9: warning: comparison between pointer and integer
-   39 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:40:50 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:25: warning: passing argument 2 of 'Mean_Calculation' from incompatible pointer type [-Wincompatible-pointer-types]
-   70 |  Mean_Calculation(Nptr, Mptr,size);
-      |                         ^~~~
-      |                         |
-      |                         float *
-In file included from ..\src\Numbers_Main.c:8:
-..\src\Numbers_Header.h:24:38: note: expected 'int *' but argument is of type 'float *'
-   24 | void Mean_Calculation(int *ptr, int *Mptr,int size);
-      |                                 ~~~~~^~~~
-..\src\Numbers_Main.c:75:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   75 |  printf("\n Mean value are: %d", *Mptr);
-      |                             ~^   ~~~~~
-      |                              |   |
-      |                              int double
-      |                             %f
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:41:02 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:70:25: warning: passing argument 2 of 'Mean_Calculation' from incompatible pointer type [-Wincompatible-pointer-types]
-   70 |  Mean_Calculation(Nptr, Mptr,size);
-      |                         ^~~~
-      |                         |
-      |                         float *
-In file included from ..\src\Numbers_Main.c:8:
-..\src\Numbers_Header.h:24:38: note: expected 'int *' but argument is of type 'float *'
-   24 | void Mean_Calculation(int *ptr, int *Mptr,int size);
-      |                                 ~~~~~^~~~
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:41:29 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:35:9: warning: comparison between pointer and integer
-   35 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:39:9: warning: comparison between pointer and integer
-   39 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:48:05 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-14:50:01 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:17:8: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   17 |  *Mptr = Mean_Value;
-      |  ~~~~~~^~~~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:51:31 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:74:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   74 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:56:08 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:74:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   74 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-14:57:16 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:78:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   78 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:57:58 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:78:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   78 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-14:59:00 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:78:2: warning: 'Mptr' is used uninitialized in this function [-Wuninitialized]
-   78 |  Mean_Calculation(Nptr, Mptr,size);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-15:03:16 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-15:03:31 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-Info: Nothing to build for NumberPointers
-15:07:20 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:16:16: error: incompatible types when initializing type 'float *' using type 'float'
-   16 |  float *Mptr = Mean_Value;
-      |                ^~~~~~~~~~
-15:07:30 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:07:55 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-..\src\Numbers_Functions.c: In function 'High_Low':
-..\src\Numbers_Functions.c:42:9: warning: comparison between pointer and integer
-   42 |   if(ptr>ref.low)
-      |         ^
-..\src\Numbers_Functions.c:46:9: warning: comparison between pointer and integer
-   46 |   if(ptr<ref.high)
-      |         ^
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-15:08:19 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:20:03 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Functions.o" "..\\src\\Numbers_Functions.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-15:21:19 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:21:43 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:22:21 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:38:8: warning: unused variable 'disregard' [-Wunused-variable]
-   38 |   char disregard = getchar();
-      |        ^~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:22:50 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:38:8: warning: unused variable 'disregard' [-Wunused-variable]
-   38 |   char disregard = getchar();
-      |        ^~~~~~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:24:22 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:19:8: warning: variable 'Valid' set but not used [-Wunused-but-set-variable]
-   19 |  _Bool Valid = false;
-      |        ^~~~~
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
-15:24:33 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-..\src\Numbers_Main.c: In function 'main':
-..\src\Numbers_Main.c:33:5: error: 'Valid' undeclared (first use in this function)
-   33 |     Valid = true;
-      |     ^~~~~
-..\src\Numbers_Main.c:33:5: note: each undeclared identifier is reported only once for each function it appears in
-15:24:44 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-Info: Nothing to build for NumberPointers
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
+gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
+Info: Nothing to build for String_Project
