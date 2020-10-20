@@ -1,0 +1,30 @@
+FLOW CHART
+
+1. User input => 2. Multiply each digit by a pattern of 2 1 2 1 2 1.. =>
+3. sum up the digits (14 becomes 1 + 4) => 4. subtract last digit with 10 =>
+5. Check if answer is the same as control digit
+
+
+1. User input with input control:
+
+Save only numbers in an struct,remove All other characters 
+first two digits will be counted as year, next month, next day
+check for leap year, then accept 29 days in february
+check if year is less than 100 years ago (0-99)
+save last position as control digit
+
+2. Multiply
+multiply each position in array EXCEPT last position with a for loop?
+the number to be multiplied with can be found if i variable is even or odd
+if even multiply with 2, odd with 1.
+save in a new array
+
+control if you can get the sums in a new array
+
+3. Addition
+Add the numbers together in the array, save it in a new array
+
+4. take last position of addition array and remove from 10
+
+5. control if the sum digit is the same as control digit
+

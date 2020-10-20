@@ -1,244 +1,2830 @@
-20:21:20 **** Incremental Build of configuration Debug for project String_Project ****
+09:56:58 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:23:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   23 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-Info: Nothing to build for String_Project
-20:22:35 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:27:14: warning: initialization of 'Age *' {aka 'struct <anonymous> *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+   27 |  Age *Aptr = user.year;
+      |              ^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:57:57 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file String_Project.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-20:22:44 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:31:17: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   31 |     *Aptr->year = Input;
+      |                 ^
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:59:22 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:23:53 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:17: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   32 |     *Aptr->year = Input;
+      |                 ^
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:59:34 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:24:25 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:17: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   32 |     *Aptr->year = Input;
+      |                 ^
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:01:33 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:25:40 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |     *Aptr->year = atoi(Input);
+      |                        ^~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:02:04 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:38:24 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:5: error: invalid type argument of unary '*' (have 'int')
+   32 |     *Aptr->year[0] = Input[0];
+      |     ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:33:5: error: invalid type argument of unary '*' (have 'int')
+   33 |     *Aptr->year[1] = Input[1];
+      |     ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:02:36 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:41:17 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:33:16: error: lvalue required as increment operand
+   33 |     *Aptr->year++;
+      |                ^~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:04:11 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-Info: Nothing to build for Cipher_Excersie
-20:44:42 **** Rebuild of configuration Debug for project Cipher_Excersie-old ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:29:4: error: invalid type argument of unary '*' (have 'int')
+   29 |    *Aptr->year[digits] = temp;
+      |    ^~~~~~~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:04:26 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encrypt.o" "..\\src\\Encrypt.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cipher_Excersie.o" "..\\src\\Cipher_Excersie.c" 
-..\src\Cipher_Excersie.c: In function 'main':
-..\src\Cipher_Excersie.c:19:7: warning: unused variable 'disregard' [-Wunused-variable]
-   19 |  char disregard = getchar();
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:29:4: error: invalid type argument of unary '*' (have 'int')
+   29 |    *Aptr->year[digits] = temp;
+      |    ^~~~~~~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:04:32 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:04:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:06:42 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:24:21: error: expected ';' before 'Age'
+   24 |  setbuf(stdout,NULL)
+      |                     ^
+      |                     ;
+......
+   27 |  Age *Aptr = user.year;
+      |  ~~~                 
+..\src\Personnr_Assignment.c:32:25: error: 'Aptr' undeclared (first use in this function)
+   32 |   Valid = Input_Control(Aptr,Input);
+      |                         ^~~~
+..\src\Personnr_Assignment.c:32:25: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Assignment.c:22:6: warning: unused variable 'user' [-Wunused-variable]
+   22 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+10:06:51 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:27:14: warning: initialization of 'Age *' {aka 'struct <anonymous> *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+   27 |  Age *Aptr = user.year;
+      |              ^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:28:4: error: invalid type argument of unary '*' (have 'Age' {aka 'struct <anonymous>'})
+   28 |    *Aptr[digits] = temp;
+      |    ^~~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:07:05 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:28:12: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'char'
+   28 |    *Aptr = temp;
+      |            ^~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:07:44 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:29:12: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+   29 |    *Aptr = age;
+      |            ^~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:08:43 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:29:12: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+   29 |    *Aptr = 12;
+      |            ^~
+..\src\Personnr_Functions.c:28:8: warning: unused variable 'age' [-Wunused-variable]
+   28 |    int age = temp -'0';
+      |        ^~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:09:08 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:28:8: warning: unused variable 'age' [-Wunused-variable]
+   28 |    int age = temp -'0';
+      |        ^~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:09:27 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:09:39 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:11:16 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:31:14: error: lvalue required as increment operand
+   31 |    Aptr->year++;
+      |              ^~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:11:48 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:29:4: error: invalid type argument of unary '*' (have 'int')
+   29 |    *Aptr->year[0] = age;
+      |    ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:11:59 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:13:12 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:5: error: invalid type argument of unary '*' (have 'int')
+   32 |     *Aptr->year = age;
+      |     ^~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:13:26 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:27:14: warning: initialization of 'Age *' {aka 'struct <anonymous> *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   27 |  Age *Aptr = user.year;
+      |              ^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+..\src\Personnr_Assignment.c:27:18: warning: 'user.year' is used uninitialized in this function [-Wuninitialized]
+   27 |  Age *Aptr = user.year;
+      |              ~~~~^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:13: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+   32 |     *Aptr = age;
+      |             ^~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:14:04 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:27:14: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   27 |  int *Aptr = user.year;
+      |              ^~~~
+..\src\Personnr_Assignment.c:32:25: warning: passing argument 1 of 'Input_Control' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |   Valid = Input_Control(Aptr,Input);
+      |                         ^~~~
+      |                         |
+      |                         int *
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:27:26: note: expected 'Age *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   27 | _Bool Input_Control(Age *Aptr, int Input[]);
+      |                     ~~~~~^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+..\src\Personnr_Assignment.c:27:18: warning: 'user.year' is used uninitialized in this function [-Wuninitialized]
+   27 |  int *Aptr = user.year;
+      |              ~~~~^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:5: error: invalid type argument of unary '*' (have 'int')
+   32 |     *Aptr->year = age;
+      |     ^~~~~~~~~~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:14:16 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:32:13: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+   32 |     *Aptr = age;
+      |             ^~~
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:15:23 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:25: warning: passing argument 1 of 'Input_Control' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |   Valid = Input_Control(Aptr,Input);
+      |                         ^~~~
+      |                         |
+      |                         int *
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:27:26: note: expected 'Age *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   27 | _Bool Input_Control(Age *Aptr, int Input[]);
+      |                     ~~~~~^~~~
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c:12:7: error: conflicting types for 'Input_Control'
+   12 | _Bool Input_Control(int *Aptr,int Input[]){
+      |       ^~~~~~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:27:7: note: previous declaration of 'Input_Control' was here
+   27 | _Bool Input_Control(Age *Aptr, int Input[]);
+      |       ^~~~~~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:15:36 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:16:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:20:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   20 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'sum' [-Wunused-variable]
+   19 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   18 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:19:8: warning: unused variable 'day' [-Wunused-variable]
+   19 |  _Bool day = false;
+      |        ^~~
+..\src\Personnr_Functions.c:18:8: warning: unused variable 'month' [-Wunused-variable]
+   18 |  _Bool month = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:23:27 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:22:17: error: expected ';' before 'int'
+   22 |  int Input[EVEN]
+      |                 ^
+      |                 ;
+   23 |  int digits = 0;
+      |  ~~~             
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:23:40 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:22:6: warning: unused variable 'Input' [-Wunused-variable]
+   22 |  int Input[EVEN];
+      |      ^~~~~
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:29:04 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:30:01 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:40:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:42:48 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:61:13: error: assignment to expression with array type
+   61 |    user.day = day;
+      |             ^
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+10:42:56 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:44:07 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:46:03 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:8: warning: unused variable 'Leap_Year' [-Wunused-variable]
+   14 |  _Bool Leap_Year = false;
+      |        ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:51:34 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input':
+..\src\Personnr_Functions.c:28:4: error: 'user' undeclared (first use in this function)
+   28 |    user.year[digits] = age;
+      |    ^~~~
+..\src\Personnr_Functions.c:28:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+   70 | }
+      | ^
+10:51:55 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:10: warning: implicit declaration of function 'Input_Control' [-Wimplicit-function-declaration]
+   32 |   user = Input_Control();
+      |          ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:32:10: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+..\src\Personnr_Assignment.c:28:7: warning: unused variable 'Dptr' [-Wunused-variable]
+   28 |  int *Dptr = user.day;
+      |       ^~~~
+..\src\Personnr_Assignment.c:27:7: warning: unused variable 'Mptr' [-Wunused-variable]
+   27 |  int *Mptr = user.month;
+      |       ^~~~
+..\src\Personnr_Assignment.c:26:7: warning: unused variable 'Aptr' [-Wunused-variable]
+   26 |  int *Aptr = user.year;
+      |       ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+10:52:20 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input':
+..\src\Personnr_Functions.c:60:13: error: assignment to expression with array type
+   60 |    user.day = Day;
+      |             ^
+10:52:30 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:28:7: warning: unused variable 'Dptr' [-Wunused-variable]
+   28 |  int *Dptr = user.day;
+      |       ^~~~
+..\src\Personnr_Assignment.c:27:7: warning: unused variable 'Mptr' [-Wunused-variable]
+   27 |  int *Mptr = user.month;
+      |       ^~~~
+..\src\Personnr_Assignment.c:26:7: warning: unused variable 'Aptr' [-Wunused-variable]
+   26 |  int *Aptr = user.year;
+      |       ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:52:49 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: variable 'user' set but not used [-Wunused-but-set-variable]
+   21 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:00:01 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: variable 'user' set but not used [-Wunused-but-set-variable]
+   21 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input':
+..\src\Personnr_Functions.c:75:20: error: expected ',' or ';' before '0'
+   75 |    int last = temp '0';
+      |                    ^~~
+11:00:21 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:01:46 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:03:09 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: variable 'user' set but not used [-Wunused-but-set-variable]
+   21 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:26:52 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: variable 'user' set but not used [-Wunused-but-set-variable]
+   21 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:15: warning: implicit declaration of function 'Leap_Year' [-Wimplicit-function-declaration]
+   94 |  _Bool Leap = Leap_Year(user.year);
+      |               ^~~~~~~~~
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user.year);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:100:7: error: conflicting types for 'Leap_Year'
+  100 | _Bool Leap_Year(int year[])
       |       ^~~~~~~~~
-gcc -o Cipher_Excersie-old.exe "src\\Cipher_Excersie.o" "src\\Encrypt.o" 
-Info: Nothing to build for Data_Struct_Excersice
-20:44:43 **** Rebuild of configuration Debug for project DynamicPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Structmx.o" "..\\src\\Structmx.c" 
-gcc -o DynamicPointers.exe "src\\Structmx.o" 
-20:44:45 **** Incremental Build of configuration Debug for project NumberPointers ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Numbers_Main.o" "..\\src\\Numbers_Main.c" 
-gcc -o NumberPointers.exe "src\\Numbers_Functions.o" "src\\Numbers_Main.o" 
-20:44:45 **** Rebuild of configuration Debug for project Number_Array_Median ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main_File.o" "..\\src\\Main_File.c" 
-..\src\Main_File.c: In function 'main':
-..\src\Main_File.c:32:11: warning: passing argument 1 of 'PrintOut' makes pointer from integer without a cast [-Wint-conversion]
-   32 |  PrintOut(med1,med2,p1,p2);
-      |           ^~~~
-      |           |
-      |           int
-In file included from ..\src\Main_File.c:8:
-..\src\header.h:21:20: note: expected 'int *' but argument is of type 'int'
-   21 | void PrintOut(int *median1,int *median2, int *temp1,int *temp2);
-      |               ~~~~~^~~~~~~
-..\src\Main_File.c:32:16: warning: passing argument 2 of 'PrintOut' makes pointer from integer without a cast [-Wint-conversion]
-   32 |  PrintOut(med1,med2,p1,p2);
-      |                ^~~~
-      |                |
-      |                int
-In file included from ..\src\Main_File.c:8:
-..\src\header.h:21:33: note: expected 'int *' but argument is of type 'int'
-   21 | void PrintOut(int *median1,int *median2, int *temp1,int *temp2);
-      |                            ~~~~~^~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Number_Array_Median.o" "..\\src\\Number_Array_Median.c" 
-..\src\Number_Array_Median.c: In function 'PrintOut':
-..\src\Number_Array_Median.c:36:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-   36 |  printf("\n Median of first array are: %d", median1); // printing out the median value of the first array
-      |                                        ~^   ~~~~~~~
-      |                                         |   |
-      |                                         int int *
-      |                                        %n
-..\src\Number_Array_Median.c:47:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-   47 |  printf("\n Median of second array are: %d", median2);
-      |                                         ~^   ~~~~~~~
-      |                                          |   |
-      |                                          int int *
-      |                                         %n
-gcc -o Number_Array_Median.exe "src\\Main_File.o" "src\\Number_Array_Median.o" 
-20:44:46 **** Rebuild of configuration Debug for project Nytt_Projekt ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Datesdiff.o" "..\\src\\Datesdiff.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input_Control.o" "..\\src\\Input_Control.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test_Main.o" "..\\src\\Test_Main.c" 
-gcc -o Nytt_Projekt.exe "src\\Datesdiff.o" "src\\Input_Control.o" "src\\Test_Main.o" 
-20:44:48 **** Rebuild of configuration Debug for project PointersProject ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PointerSorting.o" "..\\src\\PointerSorting.c" 
-Command canceled
-20:46:24 **** Incremental Build of configuration Debug for project String_Project ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:30:16: error: called object 'lowest' is not a function or function pointer
-   30 |  char lowest = lowest(*Uptr,size);
-      |                ^~~~~~
-..\src\String_Project.c:30:7: note: declared here
-   30 |  char lowest = lowest(*Uptr,size);
-      |       ^~~~~~
-20:47:08 **** Incremental Build of configuration Debug for project String_Project ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:30:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
-   30 |  char lower = lowest(*Uptr,size);
-      |                      ^~~~~
-      |                      |
-      |                      char
-In file included from ..\src\String_Project.c:12:
-..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
-   21 | char lowest(char *Upt, int size);
-      |             ~~~~~~^~~
-..\src\String_Project.c:33:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char (*)(char *, int)' [-Wformat=]
-   33 |  printf("Lowest character are: %c", lowest);
-      |                                ~^   ~~~~~~
-      |                                 |   |
-      |                                 int char (*)(char *, int)
-..\src\String_Project.c:30:7: warning: unused variable 'lower' [-Wunused-variable]
-   30 |  char lower = lowest(*Uptr,size);
-      |       ^~~~~
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-..\src\string_function.c: In function 'lowest':
-..\src\string_function.c:68:11: error: lvalue required as left operand of assignment
-   68 |    lowest = temp;
+..\src\Personnr_Functions.c:94:15: note: previous implicit declaration of 'Leap_Year' was here
+   94 |  _Bool Leap = Leap_Year(user.year);
+      |               ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:104:23: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  104 |  int temp_year = atoi(year);
+      |                       ^~~~
+      |                       |
+      |                       int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:126:10: error: invalid operands to binary % (have 'int *' and 'int')
+  126 |  if(year % A == 0)
+      |          ^
+..\src\Personnr_Functions.c:128:11: error: invalid operands to binary % (have 'int *' and 'int')
+  128 |   if(year % B == 0)
       |           ^
-20:47:20 **** Incremental Build of configuration Debug for project String_Project ****
+..\src\Personnr_Functions.c:130:12: error: invalid operands to binary % (have 'int *' and 'int')
+  130 |    if(year % C == 0)
+      |            ^
+..\src\Personnr_Functions.c:105:6: warning: variable 'Correct_Year' set but not used [-Wunused-but-set-variable]
+  105 |  int Correct_Year[4];
+      |      ^~~~~~~~~~~~
+11:28:09 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-20:56:09 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: variable 'user' set but not used [-Wunused-but-set-variable]
+   21 |  Age user;
+      |      ^~~~
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user.year);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:104:23: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  104 |  int temp_year = atoi(year);
+      |                       ^~~~
+      |                       |
+      |                       int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:121:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:29:55 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:31:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
-   31 |  char lower = lowest(*Uptr,size);
-      |                      ^~~~~
-      |                      |
-      |                      char
-In file included from ..\src\String_Project.c:12:
-..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
-   21 | char lowest(char *Upt, int size);
-      |             ~~~~~~^~~
-..\src\String_Project.c:34:33: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char (*)(char *, int)' [-Wformat=]
-   34 |  printf("Lowest character are: %c", lowest);
-      |                                ~^   ~~~~~~
-      |                                 |   |
-      |                                 int char (*)(char *, int)
-..\src\String_Project.c:31:7: warning: unused variable 'lower' [-Wunused-variable]
-   31 |  char lower = lowest(*Uptr,size);
-      |       ^~~~~
-..\src\String_Project.c:24:7: warning: 'Sptr' is used uninitialized in this function [-Wuninitialized]
-   24 |  Uptr = Sptr;
-      |  ~~~~~^~~~~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-21:05:00 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user.year);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:104:23: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  104 |  int temp_year = atoi(year);
+      |                       ^~~~
+      |                       |
+      |                       int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:121:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+11:36:14 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-..\src\String_Project.c: In function 'main':
-..\src\String_Project.c:29:22: warning: passing argument 1 of 'lowest' makes pointer from integer without a cast [-Wint-conversion]
-   29 |  char lower = lowest(*Uptr,size);
-      |                      ^~~~~
-      |                      |
-      |                      char
-In file included from ..\src\String_Project.c:12:
-..\src\header_string.h:21:19: note: expected 'char *' but argument is of type 'char'
-   21 | char lowest(char *Upt, int size);
-      |             ~~~~~~^~~
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-21:05:15 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:25: error: incompatible type for argument 1 of 'Leap_Year'
+   94 |  _Bool Leap = Leap_Year(user);
+      |                         ^~~~
+      |                         |
+      |                         Age {aka struct <anonymous>}
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:36:21: note: expected 'int *' but argument is of type 'Age' {aka 'struct <anonymous>'}
+   36 | _Bool Leap_Year(int year[]);
+      |                 ~~~~^~~~~~
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:100:7: error: conflicting types for 'Leap_Year'
+  100 | _Bool Leap_Year(Age user)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:36:7: note: previous declaration of 'Leap_Year' was here
+   36 | _Bool Leap_Year(int year[]);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:103:27: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  103 |  int temp_year = atoi(user.year);
+      |                       ~~~~^~~~~
+      |                           |
+      |                           int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:120:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+11:36:35 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-21:08:20 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:103:27: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  103 |  int temp_year = atoi(user.year);
+      |                       ~~~~^~~~~
+      |                           |
+      |                           int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+..\src\Personnr_Functions.c:120:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:19:6: warning: unused variable 'Control_Digit' [-Wunused-variable]
+   19 |  int Control_Digit;
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:41:51 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-21:09:08 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:104:15: warning: assignment to 'char' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+  104 |  user_year[0] = user.year + '0';
+      |               ^
+..\src\Personnr_Functions.c:105:15: warning: assignment to 'char' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+  105 |  user_year[1] = user.year +'0';
+      |               ^
+..\src\Personnr_Functions.c:124:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+11:42:37 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-21:10:24 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:124:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:44:02 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
-21:16:43 **** Incremental Build of configuration Debug for project String_Project ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:123:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  123 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+12:43:14 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string_function.o" "..\\src\\string_function.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\String_Project.o" "..\\src\\String_Project.c" 
-gcc -o String_Project.exe "src\\String_Project.o" "src\\string_function.o" 
-Info: Nothing to build for String_Project
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:8: warning: unused variable 'length' [-Wunused-variable]
+   21 |  _Bool length = false;
+      |        ^~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:94:8: warning: unused variable 'Leap' [-Wunused-variable]
+   94 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:123:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  123 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+12:49:05 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:31:7: warning: unused variable 'length' [-Wunused-variable]
+   31 |   int length = strlen(User_Input);
+      |       ^~~~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+12:53:13 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:95:8: warning: unused variable 'Leap' [-Wunused-variable]
+   95 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:124:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+12:55:49 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:98:8: warning: unused variable 'Leap' [-Wunused-variable]
+   98 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:127:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  127 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+12:56:46 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+12:57:46 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:128:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  128 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+12:59:36 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:128:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  128 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:01:16 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:127:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  127 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+13:01:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Leap_Year':
+..\src\Personnr_Functions.c:127:24: warning: passing argument 1 of 'atoi' from incompatible pointer type [-Wincompatible-pointer-types]
+  127 |  Corrected_Year = atoi(Correct_Year);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\Personnr_Header.h:12,
+                 from ..\src\Personnr_Functions.c:9:
+c:\mingw\include\stdlib.h:362:44: note: expected 'const char *' but argument is of type 'int *'
+  362 | _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
+      |                                            ^~~~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+13:02:04 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+13:04:18 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:05:27 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+13:07:05 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:12:33 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:13:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:14:39 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:18:34 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:8: warning: unused variable 'Leap' [-Wunused-variable]
+   99 |  _Bool Leap = Leap_Year(user);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:22:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:23: warning: implicit declaration of function 'Correct' [-Wimplicit-function-declaration]
+   99 |  int Year_Corrected = Correct(user);
+      |                       ^~~~~~~
+..\src\Personnr_Functions.c:100:25: error: incompatible type for argument 1 of 'Leap_Year'
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |                         ^~~~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:21: note: expected 'Age' {aka 'struct <anonymous>'} but argument is of type 'int'
+   37 | _Bool Leap_Year(Age user);
+      |                 ~~~~^~~~
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:137:6: warning: variable 'Corrected_Year' set but not used [-Wunused-but-set-variable]
+  137 |  int Corrected_Year = 0;
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:142:7: error: conflicting types for 'Leap_Year'
+  142 | _Bool Leap_Year(int Year)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(Age user);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+  140 | }
+      | ^
+13:24:00 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:36:26: error: incompatible type for argument 1 of 'Input_Control'
+   36 |    Valid = Input_Control(user);
+      |                          ^~~~
+      |                          |
+      |                          Age {aka struct <anonymous>}
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:39:25: note: expected 'int' but argument is of type 'Age' {aka 'struct <anonymous>'}
+   39 | _Bool Input_Control(int Year);
+      |                     ~~~~^~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+13:24:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:23: warning: implicit declaration of function 'Correct' [-Wimplicit-function-declaration]
+   99 |  int Year_Corrected = Correct(user);
+      |                       ^~~~~~~
+..\src\Personnr_Functions.c:100:25: error: incompatible type for argument 1 of 'Leap_Year'
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |                         ^~~~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:21: note: expected 'Age' {aka 'struct <anonymous>'} but argument is of type 'int'
+   37 | _Bool Leap_Year(Age user);
+      |                 ~~~~^~~~
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:137:6: warning: variable 'Corrected_Year' set but not used [-Wunused-but-set-variable]
+  137 |  int Corrected_Year = 0;
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:142:7: error: conflicting types for 'Leap_Year'
+  142 | _Bool Leap_Year(int Year)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(Age user);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+  140 | }
+      | ^
+13:25:05 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   31 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:31:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:23: warning: implicit declaration of function 'Correct' [-Wimplicit-function-declaration]
+   99 |  int Year_Corrected = Correct(user);
+      |                       ^~~~~~~
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:137:6: warning: variable 'Corrected_Year' set but not used [-Wunused-but-set-variable]
+  137 |  int Corrected_Year = 0;
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+  140 | }
+      | ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Personnr_Functions.o: in function `Input_Control':
+C:\Users\Benny\Documents\GitHub\YA-Code\Personnr_Assignment\Debug/../src/Personnr_Functions.c:99: undefined reference to `Correct'
+collect2.exe: error: ld returned 1 exit status
+13:25:27 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:99:23: error: called object 'Year_Corrected' is not a function or function pointer
+   99 |  int Year_Corrected = Year_Corrected(user);
+      |                       ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:99:6: note: declared here
+   99 |  int Year_Corrected = Year_Corrected(user);
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Year_Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:137:6: warning: variable 'Corrected_Year' set but not used [-Wunused-but-set-variable]
+  137 |  int Corrected_Year = 0;
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+  140 | }
+      | ^
+13:25:43 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Year_Corrected':
+..\src\Personnr_Functions.c:137:6: warning: variable 'Corrected_Year' set but not used [-Wunused-but-set-variable]
+  137 |  int Corrected_Year = 0;
+      |      ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+  140 | }
+      | ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+13:26:37 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:100:8: warning: unused variable 'Leap' [-Wunused-variable]
+  100 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+14:05:14 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:26:16: error: incompatible types when initializing type '_Bool *' using type '_Bool'
+   26 |  _Bool *Vptr = Valid;
+      |                ^~~~~
+..\src\Personnr_Assignment.c:27:16: error: incompatible types when initializing type '_Bool *' using type '_Bool'
+   27 |  _Bool *Aptr = Accepted;
+      |                ^~~~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   33 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:26:9: warning: unused variable 'Vptr' [-Wunused-variable]
+   26 |  _Bool *Vptr = Valid;
+      |         ^~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+14:08:00 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:27:14: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   27 |  int *Aptr = Accepted ;
+      |              ^~~~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   33 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:37:29: warning: passing argument 2 of 'Input_Control' from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |    Input_Control(User_Input,Aptr);
+      |                             ^~~~
+      |                             |
+      |                             int *
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:40:40: note: expected '_Bool *' but argument is of type 'int *'
+   40 | void Input_Control(char Input[],_Bool *Aptr);
+      |                                 ~~~~~~~^~~~
+..\src\Personnr_Assignment.c:26:9: warning: unused variable 'Vptr' [-Wunused-variable]
+   26 |  _Bool *Vptr = &Valid;
+      |         ^~~~
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c:13:6: error: conflicting types for 'Input_Control'
+   13 | void Input_Control(char Input[],int *Aptr)
+      |      ^~~~~~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:40:6: note: previous declaration of 'Input_Control' was here
+   40 | void Input_Control(char Input[],_Bool *Aptr);
+      |      ^~~~~~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:19:11: warning: comparison between pointer and integer
+   19 |   if(Input<'0'||temp>'9')
+      |           ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:114:15: error: too few arguments to function 'Leap_Year'
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |               ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: declared here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c:114:8: warning: unused variable 'Leap' [-Wunused-variable]
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:156:7: error: conflicting types for 'Leap_Year'
+  156 | _Bool Leap_Year(int Year)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+14:08:33 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:19:11: warning: comparison between pointer and integer
+   19 |   if(Input<'0'||temp>'9')
+      |           ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:114:15: error: too few arguments to function 'Leap_Year'
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |               ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: declared here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c:114:8: warning: unused variable 'Leap' [-Wunused-variable]
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:156:7: error: conflicting types for 'Leap_Year'
+  156 | _Bool Leap_Year(int Year)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+14:13:17 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:33:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   33 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:19:11: warning: comparison between pointer and integer
+   19 |   if(Input<'0'||temp>'9')
+      |           ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:114:15: error: too few arguments to function 'Leap_Year'
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |               ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: declared here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+..\src\Personnr_Functions.c:114:8: warning: unused variable 'Leap' [-Wunused-variable]
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:156:7: error: conflicting types for 'Leap_Year'
+  156 | _Bool Leap_Year(int Year)
+      |       ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(int Year,_Bool *Vptr);
+      |       ^~~~~~~~~
+14:13:35 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:19:11: warning: comparison between pointer and integer
+   19 |   if(Input<'0'||temp>'9')
+      |           ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:114:8: warning: unused variable 'Leap' [-Wunused-variable]
+  114 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:33:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   33 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:33:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+14:14:42 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:20:11: warning: comparison between pointer and integer
+   20 |   if(Input<'0'||temp>'9')
+      |           ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:14:56 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:20:24: error: subscripted value is neither array nor pointer nor vector
+   20 |   if(Input[i]<'0'||temp[i]>'9')
+      |                        ^
+..\src\Personnr_Functions.c:19:8: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   19 |   char temp = Input[i];
+      |        ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+14:15:22 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:20:6: error: 'tenmp' undeclared (first use in this function); did you mean 'temp'?
+   20 |   if(tenmp <'0'||temp >'9')
+      |      ^~~~~
+      |      temp
+..\src\Personnr_Functions.c:20:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+14:15:28 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:18:34 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:20:30: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   20 |   if((temp <'0')||(temp >'9')&&(temp !='-'))
+      |                   ~~~~~~~~~~~^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:19:14 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:20:04 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+14:21:49 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:17:14: error: 'temp' undeclared (first use in this function); did you mean 'mkdtemp'?
+   17 |  for(int i=0;temp !='\n';i++)
+      |              ^~~~
+      |              mkdtemp
+..\src\Personnr_Functions.c:17:14: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:115:8: warning: unused variable 'Leap' [-Wunused-variable]
+  115 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+14:22:23 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:116:8: warning: unused variable 'Leap' [-Wunused-variable]
+  116 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+14:23:25 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:116:8: warning: unused variable 'Leap' [-Wunused-variable]
+  116 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:26:40 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:35:13: error: expected identifier or '(' before '=' token
+   35 | enum months ={January = 1,February,April,Mars,June,July,August,October,November,December};
+      |             ^
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+14:26:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:35:13: error: expected identifier or '(' before '=' token
+   35 | enum months ={January = 1,February,April,Mars,June,July,August,October,November,December}
+      |             ^
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+14:37:50 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:37:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Struct_Saving'
+   37 | Age Struct_Saving(char Input[]);
+      |     ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:39:12: warning: implicit declaration of function 'Struct_Saving' [-Wimplicit-function-declaration]
+   39 |     user = Struct_Saving(User_Input);
+      |            ^~~~~~~~~~~~~
+..\src\Personnr_Assignment.c:39:12: error: incompatible types when assigning to type 'Age' {aka 'struct <anonymous>'} from type 'int'
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+14:38:03 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:116:8: warning: unused variable 'Leap' [-Wunused-variable]
+  116 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+14:53:42 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:119:17: error: 'MAX_YEAR' undeclared (first use in this function)
+  119 |   if(user.year<=MAX_YEAR)
+      |                 ^~~~~~~~
+..\src\Personnr_Functions.c:119:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c:121:8: error: 'date' undeclared (first use in this function)
+  121 |    if((date.month==Apr)||(date.month==Jun)||(date.month==Sept)||(date.month==Nov))
+      |        ^~~~
+..\src\Personnr_Functions.c:121:20: error: 'Apr' undeclared (first use in this function); did you mean 'Apri'?
+  121 |    if((date.month==Apr)||(date.month==Jun)||(date.month==Sept)||(date.month==Nov))
+      |                    ^~~
+      |                    Apri
+..\src\Personnr_Functions.c:121:39: error: 'Jun' undeclared (first use in this function); did you mean 'June'?
+  121 |    if((date.month==Apr)||(date.month==Jun)||(date.month==Sept)||(date.month==Nov))
+      |                                       ^~~
+      |                                       June
+..\src\Personnr_Functions.c:121:58: error: 'Sept' undeclared (first use in this function)
+  121 |    if((date.month==Apr)||(date.month==Jun)||(date.month==Sept)||(date.month==Nov))
+      |                                                          ^~~~
+..\src\Personnr_Functions.c:121:78: error: 'Nov' undeclared (first use in this function)
+  121 |    if((date.month==Apr)||(date.month==Jun)||(date.month==Sept)||(date.month==Nov))
+      |                                                                              ^~~
+..\src\Personnr_Functions.c:126:19: error: 'Feb' undeclared (first use in this function); did you mean 'Febr'?
+  126 |    if(date.month==Feb)
+      |                   ^~~
+      |                   Febr
+..\src\Personnr_Functions.c:115:8: warning: variable 'Valid' set but not used [-Wunused-but-set-variable]
+  115 |  _Bool Valid = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:147:2: error: expected identifier or '(' before 'else'
+  147 |  else
+      |  ^~~~
+..\src\Personnr_Functions.c:154:2: error: expected identifier or '(' before 'return'
+  154 |  return valid;
+      |  ^~~~~~
+..\src\Personnr_Functions.c:155:1: error: expected identifier or '(' before '}' token
+  155 | }
+      | ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:146:2: warning: control reaches end of non-void function [-Wreturn-type]
+  146 |  }
+      |  ^
+14:57:40 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:119:17: error: 'MAX_YEAR' undeclared (first use in this function)
+  119 |   if(user.year<=MAX_YEAR)
+      |                 ^~~~~~~~
+..\src\Personnr_Functions.c:119:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c:121:20: error: 'Apr' undeclared (first use in this function); did you mean 'Apri'?
+  121 |    if((user.month==Apr)||(user.month==Jun)||(user.month==Sept)||(user.month==Nov))
+      |                    ^~~
+      |                    Apri
+..\src\Personnr_Functions.c:121:39: error: 'Jun' undeclared (first use in this function); did you mean 'June'?
+  121 |    if((user.month==Apr)||(user.month==Jun)||(user.month==Sept)||(user.month==Nov))
+      |                                       ^~~
+      |                                       June
+..\src\Personnr_Functions.c:121:56: warning: comparison between pointer and integer
+  121 |    if((user.month==Apr)||(user.month==Jun)||(user.month==Sept)||(user.month==Nov))
+      |                                                        ^~
+..\src\Personnr_Functions.c:121:76: warning: comparison between pointer and integer
+  121 |    if((user.month==Apr)||(user.month==Jun)||(user.month==Sept)||(user.month==Nov))
+      |                                                                            ^~
+..\src\Personnr_Functions.c:123:16: warning: comparison between pointer and integer
+  123 |     if(user.day<=Apri)
+      |                ^~
+..\src\Personnr_Functions.c:126:17: warning: comparison between pointer and integer
+  126 |    if(user.month==Feb)
+      |                 ^~
+..\src\Personnr_Functions.c:130:9: error: 'date' undeclared (first use in this function)
+  130 |      if(date.day<=Febru)
+      |         ^~~~
+..\src\Personnr_Functions.c:135:16: warning: comparison between pointer and integer
+  135 |     if(user.day<=Febr)
+      |                ^~
+..\src\Personnr_Functions.c:142:16: warning: comparison between pointer and integer
+  142 |     if(user.day<=Janu)
+      |                ^~
+..\src\Personnr_Functions.c:115:8: warning: variable 'Valid' set but not used [-Wunused-but-set-variable]
+  115 |  _Bool Valid = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:147:2: error: expected identifier or '(' before 'else'
+  147 |  else
+      |  ^~~~
+..\src\Personnr_Functions.c:154:2: error: expected identifier or '(' before 'return'
+  154 |  return valid;
+      |  ^~~~~~
+..\src\Personnr_Functions.c:155:1: error: expected identifier or '(' before '}' token
+  155 | }
+      | ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:146:2: warning: control reaches end of non-void function [-Wreturn-type]
+  146 |  }
+      |  ^
+14:58:47 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:119:16: warning: comparison between pointer and integer
+  119 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                ^~
+..\src\Personnr_Functions.c:119:37: warning: comparison between pointer and integer
+  119 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                     ^~
+..\src\Personnr_Functions.c:119:57: warning: comparison between pointer and integer
+  119 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                         ^~
+..\src\Personnr_Functions.c:119:77: warning: comparison between pointer and integer
+  119 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                                             ^~
+..\src\Personnr_Functions.c:121:14: warning: comparison between pointer and integer
+  121 |   if(user.day<=Apri)
+      |              ^~
+..\src\Personnr_Functions.c:124:15: warning: comparison between pointer and integer
+  124 |  if(user.month==Feb)
+      |               ^~
+..\src\Personnr_Functions.c:128:15: warning: comparison between pointer and integer
+  128 |    if(user.day<=Febru)
+      |               ^~
+..\src\Personnr_Functions.c:133:14: warning: comparison between pointer and integer
+  133 |   if(user.day<=Febr)
+      |              ^~
+..\src\Personnr_Functions.c:140:14: warning: comparison between pointer and integer
+  140 |   if(user.day<=Janu)
+      |              ^~
+..\src\Personnr_Functions.c:115:8: warning: variable 'Valid' set but not used [-Wunused-but-set-variable]
+  115 |  _Bool Valid = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:145:1: error: expected identifier or '(' before 'else'
+  145 | else
+      | ^~~~
+..\src\Personnr_Functions.c:152:1: error: expected identifier or '(' before 'return'
+  152 | return valid;
+      | ^~~~~~
+..\src\Personnr_Functions.c:153:1: error: expected identifier or '(' before '}' token
+  153 | }
+      | ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
+  143 | }
+      | ^
+15:02:01 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:120:16: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                ^~
+..\src\Personnr_Functions.c:120:37: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                     ^~
+..\src\Personnr_Functions.c:120:57: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                         ^~
+..\src\Personnr_Functions.c:120:77: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                                             ^~
+..\src\Personnr_Functions.c:122:14: warning: comparison between pointer and integer
+  122 |   if(user.day<=Apri)
+      |              ^~
+..\src\Personnr_Functions.c:118:8: warning: unused variable 'Leap' [-Wunused-variable]
+  118 |  _Bool Leap = Leap_Year(Corrected);
+      |        ^~~~
+..\src\Personnr_Functions.c:116:8: warning: variable 'Valid' set but not used [-Wunused-but-set-variable]
+  116 |  _Bool Valid = false;
+      |        ^~~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:127:2: error: expected identifier or '(' before 'if'
+  127 |  if(user.month==Feb)
+      |  ^~
+..\src\Personnr_Functions.c:141:2: error: expected identifier or '(' before 'else'
+  141 |  else
+      |  ^~~~
+..\src\Personnr_Functions.c:146:1: error: expected identifier or '(' before 'return'
+  146 | return Valid;
+      | ^~~~~~
+..\src\Personnr_Functions.c:147:1: error: expected identifier or '(' before '}' token
+  147 | }
+      | ^
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:126:2: warning: control reaches end of non-void function [-Wreturn-type]
+  126 |  }  }
+      |  ^
+15:02:18 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:120:16: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                ^~
+..\src\Personnr_Functions.c:120:37: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                     ^~
+..\src\Personnr_Functions.c:120:57: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                         ^~
+..\src\Personnr_Functions.c:120:77: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                                             ^~
+..\src\Personnr_Functions.c:122:14: warning: comparison between pointer and integer
+  122 |   if(user.day<=Apri)
+      |              ^~
+..\src\Personnr_Functions.c:127:15: warning: comparison between pointer and integer
+  127 |  if(user.month==Feb)
+      |               ^~
+..\src\Personnr_Functions.c:131:15: warning: comparison between pointer and integer
+  131 |    if(user.day<=Febru)
+      |               ^~
+..\src\Personnr_Functions.c:136:14: warning: comparison between pointer and integer
+  136 |   if(user.day<=Febr)
+      |              ^~
+..\src\Personnr_Functions.c:143:14: warning: comparison between pointer and integer
+  143 |   if(user.day<=Janu)
+      |              ^~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+15:03:21 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:120:16: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                ^~
+..\src\Personnr_Functions.c:120:37: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                     ^~
+..\src\Personnr_Functions.c:120:57: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                         ^~
+..\src\Personnr_Functions.c:120:77: warning: comparison between pointer and integer
+  120 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                                             ^~
+..\src\Personnr_Functions.c:122:14: warning: comparison between pointer and integer
+  122 |   if(user.day<=Apri)
+      |              ^~
+..\src\Personnr_Functions.c:128:15: warning: comparison between pointer and integer
+  128 |  if(user.month==Feb)
+      |               ^~
+..\src\Personnr_Functions.c:132:15: warning: comparison between pointer and integer
+  132 |    if(user.day<=Febru)
+      |               ^~
+..\src\Personnr_Functions.c:137:14: warning: comparison between pointer and integer
+  137 |   if(user.day<=Febr)
+      |              ^~
+..\src\Personnr_Functions.c:145:14: warning: comparison between pointer and integer
+  145 |   if(user.day<=Janu)
+      |              ^~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+15:04:20 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:124:16: warning: comparison between pointer and integer
+  124 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                ^~
+..\src\Personnr_Functions.c:124:37: warning: comparison between pointer and integer
+  124 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                     ^~
+..\src\Personnr_Functions.c:124:57: warning: comparison between pointer and integer
+  124 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                         ^~
+..\src\Personnr_Functions.c:124:77: warning: comparison between pointer and integer
+  124 |  if((user.month==April)||(user.month==June)||(user.month==Sept)||(user.month==Nov))
+      |                                                                             ^~
+..\src\Personnr_Functions.c:126:14: warning: comparison between pointer and integer
+  126 |   if(user.day<=Apri)
+      |              ^~
+..\src\Personnr_Functions.c:132:15: warning: comparison between pointer and integer
+  132 |  if(user.month==Feb)
+      |               ^~
+..\src\Personnr_Functions.c:136:15: warning: comparison between pointer and integer
+  136 |    if(user.day<=Febru)
+      |               ^~
+..\src\Personnr_Functions.c:141:14: warning: comparison between pointer and integer
+  141 |   if(user.day<=Febr)
+      |              ^~
+..\src\Personnr_Functions.c:149:14: warning: comparison between pointer and integer
+  149 |   if(user.day<=Janu)
+      |              ^~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+15:10:23 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+15:11:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+15:14:55 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+15:16:22 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+15:20:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+15:23:24 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:32:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   32 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:32:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+15:29:48 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c:122:8: warning: unused variable 'Leap' [-Wunused-variable]
+  122 |  _Bool Leap = Leap_Year(Corrected,Lptr);
+      |        ^~~~
+..\src\Personnr_Functions.c: At top level:
+..\src\Personnr_Functions.c:218:6: error: conflicting types for 'Leap_Year'
+  218 | void Leap_Year(int Year,_Bool *Lptr)
+      |      ^~~~~~~~~
+In file included from ..\src\Personnr_Functions.c:9:
+..\src\Personnr_Header.h:37:7: note: previous declaration of 'Leap_Year' was here
+   37 | _Bool Leap_Year(int Year, _Bool *Lptr);
+      |       ^~~~~~~~~
+15:30:11 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:122:15: error: void value not ignored as it ought to be
+  122 |  _Bool Leap = Leap_Year(Corrected,Lptr);
+      |               ^~~~~~~~~
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c:122:8: warning: unused variable 'Leap' [-Wunused-variable]
+  122 |  _Bool Leap = Leap_Year(Corrected,Lptr);
+      |        ^~~~
+15:30:25 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:34:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   34 |   int length = strlen(User_Input);
+      |                ^~~~~~
+..\src\Personnr_Assignment.c:34:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Assignment.c:13:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   12 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   13 | 
+..\src\Personnr_Assignment.c:18:6: warning: unused variable 'sum' [-Wunused-variable]
+   18 |  int sum[MAX_INT];
+      |      ^~~
+..\src\Personnr_Assignment.c:17:6: warning: unused variable 'Multiply' [-Wunused-variable]
+   17 |  int Multiply[MAX_INT];
+      |      ^~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+15:31:45 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:15:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   15 |  int size = strlen(Input);
+      |             ^~~~~~
+..\src\Personnr_Functions.c:15:13: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Personnr_Functions.c:10:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    9 | #include "Personnr_Header.h"
+  +++ |+#include <string.h>
+   10 | 
+..\src\Personnr_Functions.c:15:6: warning: unused variable 'size' [-Wunused-variable]
+   15 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
