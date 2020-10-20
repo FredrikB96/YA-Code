@@ -9,7 +9,6 @@
 #include "Personnr_Header.h"
 
 
-
 void Input_Control(char Input[],_Bool *Aptr)
 {
 	int size = strlen(Input);
@@ -119,7 +118,7 @@ _Bool Date_Control(Age user,_Bool *Lptr){
 
 	_Bool Valid = false;
 	int Corrected = Year_Corrected(user);
-	 Leap_Year(Corrected,Lptr);
+	Leap_Year(Corrected,Lptr);
 	char temp_Cyear[LAST_FOUR];
 	char temp_Cmonth[LAST_FOUR];
 	char temp_Cday[LAST_FOUR];
@@ -173,10 +172,8 @@ _Bool Date_Control(Age user,_Bool *Lptr){
 		if(temp_day<=Janu)
 			Valid = true;
 	}
-return Valid;
+	return Valid;
 }
-
-
 
 int Year_Corrected(Age user)
 {
@@ -238,4 +235,46 @@ void Leap_Year(int Year,_Bool *Lptr)
 	}
 
 
+}
+
+Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum)
+{
+
+	for(int i=0;i<MAX_AGE;i++)
+	{
+		if(i<EVEN)
+		{
+			if(!i % EVEN)
+			{
+				*Sum = *Aptr * EVEN;
+				Aptr++;
+				Sum++;
+			}
+			else
+			{
+				*Sum = *Aptr * ODD;
+				Aptr++;
+				Sum++;
+			}
+		}
+		if(i>=EVEN && i<=LAST_FOUR)
+		{
+			if(i % EVEN)
+			{
+				*Sum = *Mptr * EVEN;
+				Mptr++;
+				Sum++;
+			}
+			else
+			{
+				*Sum = *Mptr * ODD;
+				Mptr++;
+				Sum++;
+			}
+		}
+		if(i>LAST_FOUR && i<6)
+		{
+
+		}
+	}
 }

@@ -27,4 +27,3 @@ Add the numbers together in the array, save it in a new array
 4. take last position of addition array and remove from 10
 
 5. control if the sum digit is the same as control digit
-

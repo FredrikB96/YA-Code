@@ -14,18 +14,24 @@
 int main(void) {
 
 	// Declaring variables needed
-	int Multiply[MAX_INT];
-	int sum[MAX_INT];
 	char User_Input[MAX_INT];
 	_Bool Valid = false;
 	_Bool Accepted = true;
 	_Bool Leap = false;
+	int sum[MAX_AGE];
 	Age user;
 
 	setbuf(stdout,NULL);
 	// Declaring pointers and assigning pointers to correct variable
 	_Bool *Aptr = &Accepted;
 	_Bool *Lptr = &Leap;
+
+	int *Age = &user.year;
+	int *Month = &user.month;
+	int *Day = &user.day;
+	int *Sum = &sum;
+
+
 
 	do{
 		printf("\n Enter age by format: XXXXXX-XXXX ");
@@ -43,7 +49,7 @@ int main(void) {
 
 				if(Valid)
 				{
-
+					Multiply(Age,Month,Day,Sum);
 				}
 			}
 			else if(!Accepted)
