@@ -18,7 +18,9 @@ int main(void) {
 	_Bool Valid = false;
 	_Bool Accepted = true;
 	_Bool Leap = false;
-	int sum[MAX_AGE];
+	_Bool Ok_Input = false;
+	int sum[MAX_AGE-ODD];
+	int add = 0;
 	Age user;
 
 	setbuf(stdout,NULL);
@@ -29,9 +31,8 @@ int main(void) {
 	int *Age = &user.year;
 	int *Month = &user.month;
 	int *Day = &user.day;
+	int *Last = &user.last;
 	int *Sum = &sum;
-
-
 
 	do{
 		printf("\n Enter age by format: XXXXXX-XXXX ");
@@ -49,8 +50,12 @@ int main(void) {
 
 				if(Valid)
 				{
-					Multiply(Age,Month,Day,Sum);
+					Multiply(Age,Month,Day,Last,Sum);
+					add = Add(Sum);
+					Ok_Input = control(user.control,add);
 				}
+				else if(*Lptr == false)
+					printf("\n not leap year, inputted 29 days in february");
 			}
 			else if(!Accepted)
 			{
@@ -61,7 +66,17 @@ int main(void) {
 
 	}while(!Valid);
 
+	if(Ok_Input)
+	{
+		printf("\n Input: %s Has control digit: %d",User_Input,user.control);
+		printf("\n Was OK!");
+	}
+	else
+	{
+		printf("\n Input: %s Has control digit: %d",User_Input,user.control);
+		printf("\n Was NOT OK!");
 
+	}
 
 	return EXIT_SUCCESS;
 }

@@ -22,7 +22,7 @@ org.eclipse.launchbar.core.descriptorType.default\:Data_Struct_Excersice.exe/act
 org.eclipse.launchbar.core.descriptorType.default\:NumberPointers.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Number_Array_Median.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Nytt_Projekt.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:Personnr_Assignment.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Personnr_Assignment.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Playing_With_Pointers.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:RandomStringProject.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Simple_Pointer\ try.exe/activeLaunchMode=debug

@@ -35,21 +35,60 @@ typedef struct{
 }Age;
 
 
+void Input_Control(char Input[],_Bool *Aptr);
+/*===========Input_Control====================
+ *  Input_Control is a function that controls the input if it is a leap year,
+ *  if it is a valid date of birth (ie not 1234567890 or 123a34!?)
+ *  Will need a pointer to the input array that are only used here
+ *  Saves the input if correct in age struct
+*/
 Age Struct_Saving(char Input[]);
-
-void Leap_Year(int Year, _Bool *Lptr);
-
-int Year_Corrected(Age user);
+/*============Struct_Saving===================
+ *  Takes the input array and stores it in a struct
+ *  the struct has int arrays called year,month,day and last
+ *  it also removes the last digit from input and stores it as a control digit
+ *  Returns the struct to main
+ */
 
 _Bool Date_Control(Age user, _Bool *Lptr);
+/*============ Date_Control =================
+ *  Checks if the date is a correct input
+ *  this is done by calling a function that checks for leap year
+ *  then controls how many days it are in the month
+ *  if days equals the correct ammount of days in the month send back a true value
+ */
 
-void Input_Control(char Input[],_Bool *Aptr);
-// Input_Control is a function that controls the input if it is a leap year,
-//  if it is a valid date of birth (ie not 1234567890 or 123a34!?)
-// Will need a pointer to the input array that are only used here
-// Saves the input if correct in age struct
+int Year_Corrected(Age user);
+/* ========== Year_Corrected ================
+ *  Converts the two digit year input to a four digit int
+ *  this is done by checking if year are below 21 then the person
+ *  has to be born 2000 and forward so we add 20 to the start of the year
+ *  else add 19 to the start, takes the hole struct, could have taken only the year int
+ *  returns the corrected int
+ */
 
-int Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum);
+void Leap_Year(int Year, _Bool *Lptr);
+/*============= Leap_year ==================
+ *  Controls if the int year are a leap year
+ *  as to have a corrected year as input.
+ *  A corrected value has four digits ie: 41=> 1941, 14=>2014
+ *  Corrected input are achieved easy by sending the year to Year_Corrected function
+ */
 
+void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum);
+/*============== Multiply =================
+ *  Multipling each position of the struct array positions
+ *  the function demands pointers to the different struct array positions
+ *  as example a pointer to the year array in the struct. the function
+ *  demands 5 different pointers. Stores the results in Sum array from main using a pointer
+ */
+
+int Add(int *Sum);
+/* =========== ADD ==============
+ *
+ *
+ */
+
+_Bool control(int Control,int Sum);
 
 #endif /* PERSONNR_HEADER_H_ */

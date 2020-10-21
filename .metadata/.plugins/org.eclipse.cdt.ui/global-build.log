@@ -549,3 +549,718 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src
       |             ^
 gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
 Info: Nothing to build for Personnr_Assignment
+09:08:36 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[10]' [-Wincompatible-pointer-types]
+   32 |  int *Sum = &sum;
+      |             ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:17:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[10]' [-Wincompatible-pointer-types]
+   32 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:27:06 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:21:6: warning: unused variable 'sum' [-Wunused-variable]
+   21 |  int sum[MAX_AGE];
+      |      ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Multiply':
+..\src\Personnr_Functions.c:254:17: error: invalid type argument of unary '*' (have 'int')
+  254 |     sum = sum + *Uptr->year[i] * EVEN;
+      |                 ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:261:17: error: invalid type argument of unary '*' (have 'int')
+  261 |     sum = sum + *Uptr->year[i] * EVEN;
+      |                 ^~~~~~~~~~~~~~
+..\src\Personnr_Functions.c:269:6: error: 'Sum' undeclared (first use in this function); did you mean 'sum'?
+  269 |     *Sum = *Mptr * EVEN;
+      |      ^~~
+      |      sum
+..\src\Personnr_Functions.c:269:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Personnr_Functions.c:269:13: error: 'Mptr' undeclared (first use in this function); did you mean 'Uptr'?
+  269 |     *Sum = *Mptr * EVEN;
+      |             ^~~~
+      |             Uptr
+09:28:19 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:51:15: error: expected expression before 'Age'
+   51 |      Multiply(Age,Month,Day,Sum);
+      |               ^~~
+..\src\Personnr_Assignment.c:51:6: error: too few arguments to function 'Multiply'
+   51 |      Multiply(Age,Month,Day,Sum);
+      |      ^~~~~~~~
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:52:6: note: declared here
+   52 | void Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum);
+      |      ^~~~~~~~
+..\src\Personnr_Assignment.c:21:6: warning: unused variable 'sum' [-Wunused-variable]
+   21 |  int sum[MAX_AGE];
+      |      ^~~
+09:29:03 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Multiply':
+..\src\Personnr_Functions.c:243:6: warning: unused variable 'sum' [-Wunused-variable]
+  243 |  int sum = 0;
+      |      ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:51:15: error: expected expression before 'Age'
+   51 |      Multiply(Age,Month,Day,Sum);
+      |               ^~~
+..\src\Personnr_Assignment.c:51:6: error: too few arguments to function 'Multiply'
+   51 |      Multiply(Age,Month,Day,Sum);
+      |      ^~~~~~~~
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:52:6: note: declared here
+   52 | void Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum);
+      |      ^~~~~~~~
+..\src\Personnr_Assignment.c:21:6: warning: unused variable 'sum' [-Wunused-variable]
+   21 |  int sum[MAX_AGE];
+      |      ^~~
+09:29:18 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[10]' [-Wincompatible-pointer-types]
+   32 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:32:16 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Multiply':
+..\src\Personnr_Functions.c:243:6: warning: unused variable 'sum' [-Wunused-variable]
+  243 |  int sum = 0;
+      |      ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   32 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[10]' [-Wincompatible-pointer-types]
+   33 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:33:57 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'Multiply':
+..\src\Personnr_Functions.c:243:6: warning: unused variable 'sum' [-Wunused-variable]
+  243 |  int sum = 0;
+      |      ^~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+09:38:12 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:127:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  127 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+09:48:58 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   32 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   33 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+09:55:01 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:130:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  130 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+09:58:18 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:01:56 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   32 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   33 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:25:22 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:29:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   29 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:30:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:32:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   32 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   33 |  int *Sum = &sum;
+      |             ^
+..\src\Personnr_Assignment.c:53:10: warning: unused variable 'add' [-Wunused-variable]
+   53 |      int add = Add(Sum);
+      |          ^~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:29:39 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:30:33 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:30:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:31:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:33:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   33 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:34:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   34 |  int *Sum = &sum;
+      |             ^
+..\src\Personnr_Assignment.c:22:6: warning: variable 'add' set but not used [-Wunused-but-set-variable]
+   22 |  int add = 0;
+      |      ^~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:33:42 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:38:40 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:30:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:31:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:33:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   33 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:34:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   34 |  int *Sum = &sum;
+      |             ^
+..\src\Personnr_Assignment.c:22:6: warning: variable 'add' set but not used [-Wunused-but-set-variable]
+   22 |  int add = 0;
+      |      ^~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:128:6: warning: variable 'temp_year' set but not used [-Wunused-but-set-variable]
+  128 |  int temp_year;
+      |      ^~~~~~~~~
+..\src\Personnr_Functions.c: In function 'control':
+..\src\Personnr_Functions.c:334:6: warning: unused variable 'result' [-Wunused-variable]
+  334 |  int result = MAX_AGE - temp;
+      |      ^~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:39:27 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:123:7: warning: variable 'temp_Cyear' set but not used [-Wunused-but-set-variable]
+  123 |  char temp_Cyear[LAST_FOUR];
+      |       ^~~~~~~~~~
+..\src\Personnr_Functions.c: In function 'control':
+..\src\Personnr_Functions.c:331:6: warning: unused variable 'result' [-Wunused-variable]
+  331 |  int result = MAX_AGE - temp;
+      |      ^~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:39:41 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:123:7: warning: variable 'temp_Cyear' set but not used [-Wunused-but-set-variable]
+  123 |  char temp_Cyear[LAST_FOUR];
+      |       ^~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:41:01 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:30:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:31:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:33:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   33 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:34:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   34 |  int *Sum = &sum;
+      |             ^
+..\src\Personnr_Assignment.c:55:35: warning: passing argument 2 of 'control' makes pointer from integer without a cast [-Wint-conversion]
+   55 |      Valid = control(user.control,add);
+      |                                   ^~~
+      |                                   |
+      |                                   int
+In file included from ..\src\Personnr_Assignment.c:12:
+..\src\Personnr_Header.h:57:32: note: expected 'int *' but argument is of type 'int'
+   57 | _Bool control(int Control,int *Sum);
+      |                           ~~~~~^~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:41:38 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:123:7: warning: variable 'temp_Cyear' set but not used [-Wunused-but-set-variable]
+  123 |  char temp_Cyear[LAST_FOUR];
+      |       ^~~~~~~~~~
+..\src\Personnr_Functions.c: In function 'control':
+..\src\Personnr_Functions.c:330:13: error: invalid type argument of unary '*' (have 'int')
+  330 |  int temp = *Sum / MAX_AGE;
+      |             ^~~~
+10:41:53 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:30:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   30 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:31:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:32:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:33:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   33 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:34:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   34 |  int *Sum = &sum;
+      |             ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:123:7: warning: variable 'temp_Cyear' set but not used [-Wunused-but-set-variable]
+  123 |  char temp_Cyear[LAST_FOUR];
+      |       ^~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:42:56 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+..\src\Personnr_Functions.c: In function 'Date_Control':
+..\src\Personnr_Functions.c:123:7: warning: variable 'temp_Cyear' set but not used [-Wunused-but-set-variable]
+  123 |  char temp_Cyear[LAST_FOUR];
+      |       ^~~~~~~~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+10:49:21 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:32:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   33 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:34:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   34 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:35:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   35 |  int *Sum = &sum;
+      |             ^
+..\src\Personnr_Assignment.c:70:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   70 |   printf("\n Was deconstructed to: year %d, month %d, day %d, Last three %d, Control digit %d",user.year,user.month,user.day,user.last,user.control);
+      |                                         ~^                                                     ~~~~~~~~~
+      |                                          |                                                         |
+      |                                          int                                                       int *
+      |                                         %n
+..\src\Personnr_Assignment.c:70:52: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   70 |   printf("\n Was deconstructed to: year %d, month %d, day %d, Last three %d, Control digit %d",user.year,user.month,user.day,user.last,user.control);
+      |                                                   ~^                                                     ~~~~~~~~~~
+      |                                                    |                                                         |
+      |                                                    int                                                       int *
+      |                                                   %n
+..\src\Personnr_Assignment.c:70:60: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+   70 |   printf("\n Was deconstructed to: year %d, month %d, day %d, Last three %d, Control digit %d",user.year,user.month,user.day,user.last,user.control);
+      |                                                           ~^                                                        ~~~~~~~~
+      |                                                            |                                                            |
+      |                                                            int                                                          int *
+      |                                                           %n
+..\src\Personnr_Assignment.c:70:75: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int *' [-Wformat=]
+   70 |   printf("\n Was deconstructed to: year %d, month %d, day %d, Last three %d, Control digit %d",user.year,user.month,user.day,user.last,user.control);
+      |                                                                          ~^                                                  ~~~~~~~~~
+      |                                                                           |                                                      |
+      |                                                                           int                                                    int *
+      |                                                                          %n
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+10:50:51 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:32:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   33 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:34:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   34 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:35:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   35 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+10:57:34 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:32:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   33 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:34:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   34 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:35:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   35 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+11:28:05 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:32:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   33 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:34:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   34 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:35:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   35 |  int *Sum = &sum;
+      |             ^
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Personnr_Assignment.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:28:14 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+12:35:17 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Assignment.o" "..\\src\\Personnr_Assignment.c" 
+..\src\Personnr_Assignment.c: In function 'main':
+..\src\Personnr_Assignment.c:31:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   31 |  int *Age = &user.year;
+      |             ^
+..\src\Personnr_Assignment.c:32:15: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   32 |  int *Month = &user.month;
+      |               ^
+..\src\Personnr_Assignment.c:33:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+   33 |  int *Day = &user.day;
+      |             ^
+..\src\Personnr_Assignment.c:34:14: warning: initialization of 'int *' from incompatible pointer type 'int (*)[3]' [-Wincompatible-pointer-types]
+   34 |  int *Last = &user.last;
+      |              ^
+..\src\Personnr_Assignment.c:35:13: warning: initialization of 'int *' from incompatible pointer type 'int (*)[9]' [-Wincompatible-pointer-types]
+   35 |  int *Sum = &sum;
+      |             ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+12:46:43 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Personnr_Assignment.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:46:48 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+12:52:13 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+12:52:53 **** Incremental Build of configuration Debug for project Personnr_Assignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Personnr_Functions.o" "..\\src\\Personnr_Functions.c" 
+..\src\Personnr_Functions.c: In function 'Input_Control':
+..\src\Personnr_Functions.c:14:6: warning: unused variable 'size' [-Wunused-variable]
+   14 |  int size = strlen(Input);
+      |      ^~~~
+gcc -o Personnr_Assignment.exe "src\\Personnr_Assignment.o" "src\\Personnr_Functions.o" 
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment
+Info: Nothing to build for Personnr_Assignment

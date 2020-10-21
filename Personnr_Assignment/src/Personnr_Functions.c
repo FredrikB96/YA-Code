@@ -112,24 +112,21 @@ Age Struct_Saving(char Input[]){
 
 _Bool Date_Control(Age user,_Bool *Lptr){
 
-
 	enum months {Jan = 1,Feb,Mars,April,May,June,July,Aug,Sept,Oct,Nov,Dec};
 	enum Days{Janu = 31, Febr = 28, Apri = 30, Febru = 29};
 
 	_Bool Valid = false;
 	int Corrected = Year_Corrected(user);
+
 	Leap_Year(Corrected,Lptr);
-	char temp_Cyear[LAST_FOUR];
 	char temp_Cmonth[LAST_FOUR];
 	char temp_Cday[LAST_FOUR];
 	int temp_day;
 	int temp_month;
-	int temp_year;
 	int p = 0;
 
 	for(int i=0;i<EVEN;i++)
 	{
-		temp_Cyear[p] = user.year[i] +'0';
 		temp_Cmonth[p] = user.month[i] +'0';
 		temp_Cday[p] = user.day[i] +'0';
 		p++;
@@ -137,12 +134,9 @@ _Bool Date_Control(Age user,_Bool *Lptr){
 
 	temp_Cday[p] = '\n';
 	temp_Cmonth[p] = '\n';
-	temp_Cyear[p] = '\n';
 
 	temp_day = atoi(temp_Cday);
 	temp_month = atoi(temp_Cmonth);
-	temp_year = atoi(temp_Cyear);
-
 
 	if((temp_month==April)||(temp_month==June)||(temp_month==Sept)||(temp_month==Nov))
 	{
@@ -237,14 +231,13 @@ void Leap_Year(int Year,_Bool *Lptr)
 
 }
 
-Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum)
+void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum)
 {
-
-	for(int i=0;i<MAX_AGE;i++)
+	for(int i=0;i<MAX_AGE-ODD;i++)
 	{
 		if(i<EVEN)
 		{
-			if(!i % EVEN)
+			if((i % EVEN)==0)
 			{
 				*Sum = *Aptr * EVEN;
 				Aptr++;
@@ -259,7 +252,7 @@ Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum)
 		}
 		if(i>=EVEN && i<=LAST_FOUR)
 		{
-			if(i % EVEN)
+			if((i % EVEN)==0)
 			{
 				*Sum = *Mptr * EVEN;
 				Mptr++;
@@ -274,7 +267,75 @@ Multiply(int *Aptr, int *Mptr, int *Dptr, int *Sum)
 		}
 		if(i>LAST_FOUR && i<6)
 		{
+			if((i % EVEN)==0)
+			{
+				*Sum = *Dptr * EVEN;
+				Dptr++;
+				Sum++;
+			}
+			else
+			{
+				*Sum = *Dptr * ODD;
+				Dptr++;
+				Sum++;
+			}
 
 		}
+		if(i>=6 && i<MAX_AGE)
+		{
+			if((i % EVEN)==0)
+			{
+				*Sum = *Lptr * EVEN;
+				Lptr++;
+				Sum++;
+			}
+			else
+			{
+				*Sum = *Lptr * ODD;
+				Lptr++;
+				Sum++;
+			}
+		}
 	}
+}
+
+int Add(int *Sum)
+{
+	int value = 0;
+
+	for(int i=0;i<MAX_AGE-ODD;i++)
+	{
+		if(*Sum>=10)
+		{
+			value += *Sum - 9;
+			Sum++;
+		}
+		else
+		{
+			value += *Sum;
+			Sum++;
+		}
+	}
+
+	return value;
+}
+
+_Bool control(int Control,int Sum)
+{
+	_Bool Correct = false;
+
+	int temp = Sum % MAX_AGE;
+	int result = MAX_AGE - temp;
+
+	if(result>=10)
+	{
+		result -= MAX_AGE;
+	}
+
+	if(result==Control)
+	{
+		Correct= true;
+	}
+
+	return Correct;
 }
