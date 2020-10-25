@@ -11,8 +11,8 @@
 
 void Input_Control(char Input[],_Bool *Aptr)
 {
-	int size = strlen(Input);
-
+	// Goes thru the Input array after letters
+	// Assigning the boolean Accepted from main to false if found
 	char temp;
 	for(int i=0;temp !='\n';i++)
 	{
@@ -25,120 +25,87 @@ void Input_Control(char Input[],_Bool *Aptr)
 }
 
 Age Struct_Saving(char Input[]){
-	// year,month,day bools are needed to control if we saved year,month and day variables
-	_Bool year = false;
-	_Bool month = false;
-	_Bool day = false;
-	_Bool Last_four = false;
 
 	Age user;
 
-	int digits = 0;
-	int position = 0;
+	// Assigning pointers to first positions in arrays
+	int *Yptr = &user.year[0];
+	int *Mptr = &user.month[0];
+	int *Dptr = &user.day[0];
+	int *Lptr = &user.last[0];
+	int *Cptr = &user.control;
+
 	char temp;
 
+	for(int i=0;temp !='\n';i++){
+		temp = Input[i];
+		if(i<EVEN)
+		{
+		Char_To_Struct(temp, Yptr); // Saves down char input to struct
+		Yptr++; // Moving pointer forward
+		}
+		if(i<FOUR&&i>=EVEN)
+		{
+			Char_To_Struct(temp, Mptr);
+			Mptr++;
+		}
+		if(i<SEVEN&&i>=FOUR)
+		{
+			Char_To_Struct(temp, Dptr);
+			Dptr++;
+		}
+		if(i>=SEVEN&&i<MAX_AGE)
+		{
+			Char_To_Struct(temp, Lptr);
+			Lptr++;
+		}
+		if(i==MAX_AGE)
+		{
+			Char_To_Struct(temp,Cptr);
+		}
 
-	for(int i=0;!year;i++)
-	{
-		temp = Input[position];
-		position++;
-		if((temp >='0'&&temp<='9')&&!year)
-		{
-			int age = temp -'0';
-			user.year[digits] = age;
-			digits++;
-			if(digits>1)
-			{
-				year = true;
-				digits=0;
-			}
-		}
-	}
-
-	for(int i=0;!month;i++)
-	{
-		temp = Input[position];
-		position++;
-		if((temp >='0'&&temp<='9')&&(year)&&!month)
-		{
-			int Month = temp -'0';
-			user.month[digits] = Month;
-			digits++;
-			if(digits>1)
-			{
-				month = true;
-				digits=0;
-			}
-		}
-	}
-	for(int i=0;!day;i++)
-	{
-		temp = Input[position];
-		position++;
-		if((temp >='0'&&temp<='9')&&(year)&&(month)&&!day)
-		{
-			int Day = temp -'0';
-			user.day[digits] = Day;
-			digits++;
-			if(digits>1)
-			{
-				day = true;
-				digits=0;
-			}
-		}
-	}
-
-	for(int i=0;!Last_four;i++)
-	{
-		temp = Input[position];
-		position++;
-		if(temp >='0'&&temp <='9')
-		{
-			int last = temp - '0';
-			if(digits<LAST_FOUR)
-			{
-				user.last[digits] = last;
-				digits++;
-			}
-			else {
-				user.control = last;
-				Last_four = true;
-			}
-		}
 	}
 
 	return user;
 }
 
+
+void Char_To_Struct(char Input, int *Iptr)
+{
+	int temp = Input - '0'; // Converts to int from char
+	*Iptr = temp;
+}
+
 _Bool Date_Control(Age user,_Bool *Lptr){
 
+	// Enumiration to help with control of correct number of days in month
 	enum months {Jan = 1,Feb,Mars,April,May,June,July,Aug,Sept,Oct,Nov,Dec};
 	enum Days{Janu = 31, Febr = 28, Apri = 30, Febru = 29};
 
 	_Bool Valid = false;
-	int Corrected = Year_Corrected(user);
+	int Corrected = Year_Corrected(user); // Converts two digit year input to four year input
 
-	Leap_Year(Corrected,Lptr);
+	Leap_Year(Corrected,Lptr);  // Checks for leap year
 	char temp_Cmonth[LAST_FOUR];
 	char temp_Cday[LAST_FOUR];
 	int temp_day;
 	int temp_month;
 	int p = 0;
 
-	for(int i=0;i<EVEN;i++)
+	for(int i=0;i<EVEN;i++) // Converts the month and day to char from int to enable the atoi function
 	{
 		temp_Cmonth[p] = user.month[i] +'0';
 		temp_Cday[p] = user.day[i] +'0';
 		p++;
 	}
 
-	temp_Cday[p] = '\n';
+	temp_Cday[p] = '\n'; // Assigning end of string character to the variable
 	temp_Cmonth[p] = '\n';
 
-	temp_day = atoi(temp_Cday);
+	temp_day = atoi(temp_Cday); // Converts back to int from char, was needed to do this since we store the value in an array
 	temp_month = atoi(temp_Cmonth);
 
-	if((temp_month==April)||(temp_month==June)||(temp_month==Sept)||(temp_month==Nov))
+	if((temp_month==April)||(temp_month==June)||(temp_month==Sept)||(temp_month==Nov)) // Control for number of days in the month
 	{
 		if(temp_day<=Apri)
 		{
@@ -148,7 +115,7 @@ _Bool Date_Control(Age user,_Bool *Lptr){
 
 	if(temp_month==Feb)
 	{
-		if(*Lptr == true)
+		if(*Lptr == true) // if leap ýear was found, the it should be 29 days in february
 		{
 			if(temp_day<=Febru)
 			{
@@ -173,7 +140,7 @@ int Year_Corrected(Age user)
 {
 	char user_year[LAST_FOUR];
 
-	for(int i=0;i<EVEN;i++)
+	for(int i=0;i<EVEN;i++) // Converts int to char then using atoi to convert back to int, to get the array of numbers to a single variable
 	{
 		user_year[i] = user.year[i] + '0';
 	}
@@ -182,18 +149,18 @@ int Year_Corrected(Age user)
 
 
 	char Correct_Year[5];
-	if(temp_year < START)
+	if(temp_year < START) // if user year are below 21 then the user must be born 00 and forward, so we assign 20 to the start
 	{
 		Correct_Year[0] = '2';
 		Correct_Year[1] = '0';
 	}
-	if(temp_year > START)
+	if(temp_year > START) // If user year are above 21 the  user are born above 1921 and under 00 so we assign 19 to the start
 	{
 		Correct_Year[0] = '1';
 		Correct_Year[1] = '9';
 	}
 	int p = 2;
-	for(int i=0;i<EVEN;i++)
+	for(int i=0;i<EVEN;i++) // Converts back to char to use atoi
 	{
 		Correct_Year[p] = user.year[i] + '0';
 		p++;
@@ -203,7 +170,7 @@ int Year_Corrected(Age user)
 	int Corrected_Year = 0;
 	Corrected_Year = atoi(Correct_Year);
 
-	return Corrected_Year;
+	return Corrected_Year; // Returns the four digit year
 }
 
 void Leap_Year(int Year,_Bool *Lptr)
@@ -233,24 +200,24 @@ void Leap_Year(int Year,_Bool *Lptr)
 
 void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum)
 {
-	for(int i=0;i<MAX_AGE-ODD;i++)
+	for(int i=0;i<MAX_AGE-ODD;i++) // Will multiply each digit with either 2 or 1
 	{
-		if(i<EVEN)
+		if(i<EVEN) // if i is less then 2 then its the year digits we are using
 		{
-			if((i % EVEN)==0)
+			if((i % EVEN)==0) // If i are even then we should multiply by 2
 			{
 				*Sum = *Aptr * EVEN;
 				Aptr++;
 				Sum++;
 			}
-			else
+			else // If i is odd then multiply with 1
 			{
 				*Sum = *Aptr * ODD;
 				Aptr++;
 				Sum++;
 			}
 		}
-		if(i>=EVEN && i<=LAST_FOUR)
+		if(i>=EVEN && i<=LAST_FOUR) // If i are 2 or above but less than 4 then we should use month digits
 		{
 			if((i % EVEN)==0)
 			{
@@ -265,7 +232,7 @@ void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum)
 				Sum++;
 			}
 		}
-		if(i>LAST_FOUR && i<6)
+		if(i>LAST_FOUR && i<SEVEN-1) // if i are above 3 and less than 6 we should use the day digits
 		{
 			if((i % EVEN)==0)
 			{
@@ -281,7 +248,7 @@ void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum)
 			}
 
 		}
-		if(i>=6 && i<MAX_AGE)
+		if(i>=SEVEN-1 && i<MAX_AGE) // if i are above 6 then it is the last 3 digits we should use
 		{
 			if((i % EVEN)==0)
 			{
@@ -303,11 +270,11 @@ int Add(int *Sum)
 {
 	int value = 0;
 
-	for(int i=0;i<MAX_AGE-ODD;i++)
+	for(int i=0;i<MAX_AGE-ODD;i++) // Adding each digit in the array together to each other
 	{
 		if(*Sum>=10)
 		{
-			value += *Sum - 9;
+			value += *Sum - 9; // if the variable to be added are above 10 then we remove 9 to get the correct value (ie 14 = 1 + 4 = 5// 14 - 9 = 5)
 			Sum++;
 		}
 		else
@@ -324,10 +291,10 @@ _Bool control(int Control,int Sum)
 {
 	_Bool Correct = false;
 
-	int temp = Sum % MAX_AGE;
-	int result = MAX_AGE - temp;
+	int temp = Sum % MAX_AGE; // Divides by 10 until not possible longer
+	int result = MAX_AGE - temp; // removing the remainder from 10 to get the control value
 
-	if(result>=10)
+	if(result>=10)  // If result still are above 10 we remove 10 to get the correct value as control value
 	{
 		result -= MAX_AGE;
 	}

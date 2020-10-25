@@ -18,12 +18,11 @@
 #define ODD 1
 #define EVEN 2
 #define LAST_FOUR 3
+#define FOUR  4
+#define SEVEN 7
 
 #define EXPECTED 11
-#define START_DATE 1921
 #define	START	21
-#define END_DATE 2021
-
 
 // Creating a struct variable that will hold year,month,day in arrays in hopes to being able to get the different digits
 typedef struct{
@@ -42,12 +41,19 @@ void Input_Control(char Input[],_Bool *Aptr);
  *  Will need a pointer to the input array that are only used here
  *  Saves the input if correct in age struct
 */
+
 Age Struct_Saving(char Input[]);
 /*============Struct_Saving===================
  *  Takes the input array and stores it in a struct
  *  the struct has int arrays called year,month,day and last
  *  it also removes the last digit from input and stores it as a control digit
  *  Returns the struct to main
+ */
+
+void Char_To_Struct(char Input, int *Iptr);
+/* ============= Char_To_Struct ===============
+ * supplement function used to save the input char array to diffrent struct
+ * variables. takes the Input from Struct_Saving and stores it as an int in the pointers position.
  */
 
 _Bool Date_Control(Age user, _Bool *Lptr);
@@ -85,10 +91,18 @@ void Multiply(int *Aptr, int *Mptr, int *Dptr,int *Lptr, int *Sum);
 
 int Add(int *Sum);
 /* =========== ADD ==============
- *
- *
+ *  Adding each digit in the sum array to each other
+ *  Due to criteria from customer to use pointers
+ *  this function needs a pointer to start position of array
+ *  will return an int with the value to be used
  */
 
 _Bool control(int Control,int Sum);
+/* ========== Control ================
+ * Controls if the last digit in sum is the same as the control digit
+ * is achieved by taking the sum int and dividing by 10 until not possible
+ * then taking away that digit from 10, checks the result of that equation
+ * is the same as control digit
+ */
 
 #endif /* PERSONNR_HEADER_H_ */
