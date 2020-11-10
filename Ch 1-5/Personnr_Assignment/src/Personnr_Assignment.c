@@ -37,6 +37,7 @@ int main(void) {
 
 	do{
 		// takes input from user
+		fflush(stdin);
 		printf("\n Enter age by format: XXXXXX-XXXX ");
 		fgets(User_Input,MAX_INT,stdin);
 

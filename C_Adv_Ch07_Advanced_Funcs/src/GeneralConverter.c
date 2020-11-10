@@ -31,7 +31,7 @@ void fahr_to_cels(float temp[], int n);
 /* -------------------- Start of Main Program ---------------- */
 int main()
 {
-float temp[ARRAY_SIZE]={100.0, 75.3, 32.0, 0.0, -11.3};
+	float temp[ARRAY_SIZE]={100.0, 75.3, 32.0, 0.0, -11.3};
 
 	printf("\n Old temps in Fahrenheit:");
 	for(int k=0; k<ARRAY_SIZE; k++){

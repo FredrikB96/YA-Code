@@ -14,12 +14,27 @@ void Input_Control(char Input[],_Bool *Aptr)
 	// Goes thru the Input array after letters
 	// Assigning the boolean Accepted from main to false if found
 	char temp;
+	int found = 0; //TODO:  New because program must have - to function
 	for(int i=0;temp !='\n';i++)
 	{
+
 		temp = Input[i];
 		if((temp <'0'||temp >'9')&&temp !='-'&&temp !='\n')
 		{
 			*Aptr = false;
+		}
+		if(temp == '-')
+			found++;
+	}
+	if(found>1||found<1)
+	{
+		*Aptr = false;
+		if(found>1)
+		{
+		printf("\n Can't have more than one '-' character, please enter as advised");
+		}
+		{
+		printf("\n Can't find '-' character, please enter as advised");
 		}
 	}
 }
