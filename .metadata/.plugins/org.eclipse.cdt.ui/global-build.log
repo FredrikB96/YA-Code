@@ -1,9 +1,2 @@
-11:43:00 **** Rebuild of configuration Debug for project Converter ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Converter.o" "..\\src\\Converter.c" 
-..\src\Converter.c: In function 'array_func':
-..\src\Converter.c:20:7: warning: operation on 'n' may be undefined [-Wsequence-point]
-   20 |   vec[--n] = funcpnt(vec[n], conv);
-      |       ^~~
-gcc -o Converter.exe "src\\Converter.o" 
-Info: Nothing to build for Converter
+Info: Nothing to build for Personnr_Assignment-Xtra
+Info: Nothing to build for Personnr_Assignment-Xtra
