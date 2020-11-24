@@ -14,6 +14,7 @@
 int main(int args, char *Argc[]) {
 
 	// Declaring variables needed
+	int a = 0;
 	char User_Input[MAX_INT];
 //	char Input_Correct[MAX_AGE];
 	_Bool Valid = false;
@@ -100,6 +101,12 @@ int main(int args, char *Argc[]) {
 				}
 				else if(*Lptr == false)
 					printf("\n not leap year, inputted 29 days in february");
+
+				else if(args>1) // Added 2020-11-17
+				{
+					printf("\n argument not accepted");
+					break;
+				}
 			}
 			else if(!Accepted)
 			{

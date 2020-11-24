@@ -26,7 +26,7 @@ SimpleTest_CreateTest(Divider_Test)  	// Single test defined
 
 	divider(pntr,length);
 
-	SimpleTest_AssertString(Test_Array1, '19960103-1033', "Divider didn't work on 12 digits");
+	SimpleTest_AssertString(Test_Array1, "19960103-1033", "Divider didn't work on 12 digits");
 
 
 
@@ -62,7 +62,7 @@ int main(int argc, char **argv)
 {
     test_batch();						// complete batch of tests will be run
 
-    printf("\n\Tests completed: %d", SimpleTestCounter);	// tests run
+    printf("\nTests completed: %d", SimpleTestCounter);	// tests run
 
     if( SimpleTestFailCounter == 0){
     	printf("\n All tests passed!"); 			// if batch is successful
